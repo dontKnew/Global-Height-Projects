@@ -1,0 +1,49 @@
+# Jetbrains editors (PHPStorm, etc)
+.idea
+_modules/*
+
+#Personal Files 
+notes.txt
+version
+*.zip
+vendor
+node_modules
+soon
+
+.github
+
+.well-known
+
+# Codeignier 4 
+#-------------------------
+# Temporary Files
+#-------------------------
+writable/cache/*
+!writable/cache/index.html
+writable/logs/*
+!writable/logs/index.html
+writable/session/*
+!writable/session/index.html
+writable/uploads/*
+!writable/uploads/index.html
+writable/debugbar/*
+php_errors.log
+
+tests/coverage*
+user_guide_src/build/*
+user_guide_src/cilexer/build/*
+user_guide_src/cilexer/dist/*
+user_guide_src/cilexer/pycilexer.egg-info/*
+
+
+#-------------------------
+# Environment Files
+#-------------------------
+# These should never be under version control,
+# as it poses a security risk.
+.env
+.vagrant
+Vagrantfile
+
+$RECYCLE.BIN/
+

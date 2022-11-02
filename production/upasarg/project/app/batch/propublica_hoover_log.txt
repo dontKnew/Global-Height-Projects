@@ -1,0 +1,127 @@
+
+Run Mode : Dry Run...
+
+CRON SCRIPT propublica_hoover.php STARTED : 2021-08-23 09:59:10 AM 
+
+
+Collecting article links for biden-administration
+-------------------
+
+https://www.propublica.org/article/ppp-loans-bankruptcy
+
+Total links fetched : 1
+
+Collecting article links for civil-rights
+-------------------
+
+https://www.propublica.org/article/eugene-clemons-death-penalty
+
+Total links fetched : 1
+
+Collecting article links for criminal-justice
+-------------------
+
+https://www.propublica.org/article/alaskan-law-requires-dna-from-accused-criminals-but-officials-failed-to-collect-samples-from-21-000-people
+
+Total links fetched : 1
+
+Collecting article links for debt
+-------------------
+
+https://www.propublica.org/article/missouri-lawmakers-approve-reforms-to-controversial-clean-energy-loan-program
+
+Total links fetched : 1
+
+Collecting article links for education
+-------------------
+
+https://www.propublica.org/article/held-back-inside-a-lost-school-year
+
+Total links fetched : 1
+
+Collecting article links for environment
+-------------------
+
+https://www.propublica.org/article/postcard-from-thermal-surviving-the-climate-gap-in-eastern-coachella-valley
+
+Total links fetched : 1
+
+Collecting article links for health-care
+-------------------
+
+https://www.propublica.org/article/heartware-patients-implanted-fda
+
+Total links fetched : 1
+
+Collecting article links for immigration
+-------------------
+
+https://www.propublica.org/article/immigration-prosecutors-were-told-not-to-push-for-deportation-in-cases-like-his
+
+Total links fetched : 1
+
+Collecting article links for military
+-------------------
+
+https://www.propublica.org/article/va-secretary-focused-on-smearing-woman-who-said-she-was-sexually-assaulted-in-a-va-hospital-probe-finds
+
+Total links fetched : 1
+
+Collecting article links for labor
+-------------------
+
+https://www.propublica.org/article/a-new-suit-seeks-to-turn-arbitrations-a-tool-of-big-corporations-against-a-top-customer-service-provider
+
+Total links fetched : 1
+
+Collecting article links for politics
+-------------------
+
+https://www.propublica.org/article/marjorie-taylor-greene-appeared-in-a-super-pac-ad-asking-for-money-that-might-break-the-rules
+
+Total links fetched : 1
+
+Collecting article links for regulation
+-------------------
+
+https://www.propublica.org/article/spanish-texas-carbon-monoxide-poisoning
+
+Total links fetched : 1
+
+Collecting article links for sex-and-gender
+-------------------
+
+https://www.propublica.org/article/alaska-requires-dna-be-collected-from-people-arrested-for-violent-crimes-many-police-have-ignored-that
+
+Total links fetched : 1
+
+Collecting article links for trump-administration
+-------------------
+
+https://www.propublica.org/article/new-details-suggest-senior-trump-aides-knew-jan-6-rally-could-get-chaotic
+
+Total links fetched : 1
+
+Removing already fetched links
+https://www.propublica.org/article/ppp-loans-bankruptcy
+https://www.propublica.org/article/eugene-clemons-death-penalty
+https://www.propublica.org/article/alaskan-law-requires-dna-from-accused-criminals-but-officials-failed-to-collect-samples-from-21-000-people
+https://www.propublica.org/article/missouri-lawmakers-approve-reforms-to-controversial-clean-energy-loan-program
+https://www.propublica.org/article/held-back-inside-a-lost-school-year
+https://www.propublica.org/article/postcard-from-thermal-surviving-the-climate-gap-in-eastern-coachella-valley
+https://www.propublica.org/article/heartware-patients-implanted-fda
+https://www.propublica.org/article/immigration-prosecutors-were-told-not-to-push-for-deportation-in-cases-like-his
+https://www.propublica.org/article/va-secretary-focused-on-smearing-woman-who-said-she-was-sexually-assaulted-in-a-va-hospital-probe-finds
+https://www.propublica.org/article/a-new-suit-seeks-to-turn-arbitrations-a-tool-of-big-corporations-against-a-top-customer-service-provider
+https://www.propublica.org/article/marjorie-taylor-greene-appeared-in-a-super-pac-ad-asking-for-money-that-might-break-the-rules
+https://www.propublica.org/article/spanish-texas-carbon-monoxide-poisoning
+https://www.propublica.org/article/alaska-requires-dna-be-collected-from-people-arrested-for-violent-crimes-many-police-have-ignored-that
+https://www.propublica.org/article/new-details-suggest-senior-trump-aides-knew-jan-6-rally-could-get-chaotic
+
+Total articles to fetch : 0
+
+
+
+ Time Taken : 24(0.4) Seconds(Minutes)
+CRON SCRIPT propublica_hoover.php COMPLETED : 2021-08-23 09:59:34 AM 
+

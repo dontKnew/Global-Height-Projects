@@ -1,0 +1,112 @@
+
+
+Code Coverage Report:    
+  2022-10-16 19:16:41    
+                         
+ Summary:                
+  Classes:  5.00% (1/20) 
+  Methods:  1.82% (1/55) 
+  Lines:    1.03% (8/777)
+
+App\Controllers\AboutController
+  Methods:   0.00% ( 0/ 1)   Lines:   0.00% (  0/  5)
+App\Controllers\Admin\AdminController
+  Methods:   0.00% ( 0/ 5)   Lines:   0.00% (  0/ 61)
+App\Controllers\Admin\CitySliderController
+  Methods:   0.00% ( 0/ 5)   Lines:   0.00% (  0/ 92)
+App\Controllers\Admin\DashboardController
+  Methods:   0.00% ( 0/ 1)   Lines:   0.00% (  0/ 27)
+App\Controllers\Admin\FaqsController
+  Methods:   0.00% ( 0/ 5)   Lines:   0.00% (  0/ 55)
+App\Controllers\Admin\HomeController
+  Methods:   0.00% ( 0/ 2)   Lines:   0.00% (  0/ 35)
+App\Controllers\Admin\PhotoGalleryController
+  Methods:   0.00% ( 0/ 5)   Lines:   0.00% (  0/ 91)
+App\Controllers\Admin\StateApartmentController
+  Methods:   0.00% ( 0/ 5)   Lines:   0.00% (  0/103)
+App\Controllers\Admin\StateController
+  Methods:   0.00% ( 0/ 5)   Lines:   0.00% (  0/ 79)
+App\Controllers\Admin\TestimonialController
+  Methods:   0.00% ( 0/ 5)   Lines:   0.00% (  0/ 97)
+App\Controllers\BaseController
+  Methods:   0.00% ( 0/ 4)   Lines:   0.00% (  0/ 16)
+App\Controllers\CityController
+  Methods:   0.00% ( 0/ 1)   Lines:   0.00% (  0/ 16)
+App\Controllers\HomeController
+  Methods:   0.00% ( 0/ 2)   Lines:   0.00% (  0/ 25)
+App\Controllers\LoginController
+  Methods:   0.00% ( 0/ 1)   Lines:   0.00% (  0/  3)
+App\Controllers\OfferController
+  Methods:   0.00% ( 0/ 1)   Lines:   0.00% (  0/  3)
+App\Filters\AdminFilter
+  Methods:   0.00% ( 0/ 1)   Lines:   0.00% (  0/  2)
+App\Models\AdminModel
+  Methods:  ( 0/ 0)   Lines:  (  0/  0)
+App\Models\CitySliderModel
+  Methods:  ( 0/ 0)   Lines:  (  0/  0)
+App\Models\FaqsModel
+  Methods:  ( 0/ 0)   Lines:  (  0/  0)
+App\Models\HomeModel
+  Methods:  ( 0/ 0)   Lines:  (  0/  0)
+App\Models\PhotoGalleryModel
+  Methods:  ( 0/ 0)   Lines:  (  0/  0)
+App\Models\StateApartmentModel
+  Methods:  ( 0/ 0)   Lines:  (  0/  0)
+App\Models\StateModel
+  Methods:  ( 0/ 0)   Lines:  (  0/  0)
+App\Models\TestimonialModel
+  Methods:  ( 0/ 0)   Lines:  (  0/  0)
+App\Traits\ExtraModelMethods
+  Methods:   0.00% ( 0/ 2)   Lines:   0.00% (  0/ 31)
+Config\CURLRequest
+  Methods:  ( 0/ 0)   Lines:  (  0/  0)
+Config\Cache
+  Methods:  ( 0/ 0)   Lines:  (  0/  0)
+Config\ContentSecurityPolicy
+  Methods:  ( 0/ 0)   Lines:  (  0/  0)
+Config\Cookie
+  Methods:  ( 0/ 0)   Lines:  (  0/  0)
+Config\Database
+  Methods: 100.00% ( 1/ 1)   Lines: 100.00% (  3/  3)
+Config\DocTypes
+  Methods:  ( 0/ 0)   Lines:  (  0/  0)
+Config\Email
+  Methods:  ( 0/ 0)   Lines:  (  0/  0)
+Config\Encryption
+  Methods:  ( 0/ 0)   Lines:  (  0/  0)
+Config\Exceptions
+  Methods:  ( 0/ 0)   Lines:  (  0/  0)
+Config\Feature
+  Methods:  ( 0/ 0)   Lines:  (  0/  0)
+Config\Filters
+  Methods:  ( 0/ 0)   Lines:  (  0/  0)
+Config\ForeignCharacters
+  Methods:  ( 0/ 0)   Lines:  (  0/  0)
+Config\Format
+  Methods:   0.00% ( 0/ 1)   Lines:   0.00% (  0/  1)
+Config\Generators
+  Methods:  ( 0/ 0)   Lines:  (  0/  0)
+Config\Honeypot
+  Methods:  ( 0/ 0)   Lines:  (  0/  0)
+Config\Images
+  Methods:  ( 0/ 0)   Lines:  (  0/  0)
+Config\Kint
+  Methods:  ( 0/ 0)   Lines:  (  0/  0)
+Config\Logger
+  Methods:  ( 0/ 0)   Lines:  (  0/  0)
+Config\Migrations
+  Methods:  ( 0/ 0)   Lines:  (  0/  0)
+Config\Mimes
+  Methods:   0.00% ( 0/ 2)   Lines:   0.00% (  0/ 14)
+Config\Pager
+  Methods:  ( 0/ 0)   Lines:  (  0/  0)
+Config\Publisher
+  Methods:  ( 0/ 0)   Lines:  (  0/  0)
+Config\Security
+  Methods:  ( 0/ 0)   Lines:  (  0/  0)
+Config\Toolbar
+  Methods:  ( 0/ 0)   Lines:  (  0/  0)
+Config\Validation
+  Methods:  ( 0/ 0)   Lines:  (  0/  0)
+Config\View
+  Methods:  ( 0/ 0)   Lines:  (  0/  0)

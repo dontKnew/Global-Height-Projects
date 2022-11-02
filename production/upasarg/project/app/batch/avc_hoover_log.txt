@@ -1,0 +1,14 @@
+
+Run Mode : Dry Run...
+
+CRON SCRIPT avc_hoover.php STARTED : 2021-09-06 09:30:05 AM 
+
+SQLSTATE[42000]: Syntax error or access violation: 1227 Access denied; you need (at least one of) the SUPER privilege(s) for this operation
+
+page : 1
+
+
+
+ Time Taken : 2(0.033) Seconds(Minutes)
+CRON SCRIPT avc_hoover.php COMPLETED : 2021-09-06 09:30:07 AM 
+

@@ -1,0 +1,5 @@
+
+db password- Ex%)R@F)ewL$
+user - upasargc_upsarag
+localhost
+db- upasargc_newupsarag

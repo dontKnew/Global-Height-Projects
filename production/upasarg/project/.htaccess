@@ -1,0 +1,48 @@
+
+Options -Indexes
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    # RewriteBase /upsarag
+    RewriteCond     %{SERVER_PORT} ^80$
+    RewriteRule     ^(.*)$ https://%{SERVER_NAME}%{REQUEST_URI} [L,R]
+
+#     RewriteCond %{REQUEST_FILENAME} !-f
+#     RewriteCond %{REQUEST_FILENAME} !-d
+#     RewriteCond %{REQUEST_URI} !^contact-us$ [NC]
+#     RewriteCond %{REQUEST_URI} !^$ [NC]
+    # RewriteRule ^/?(.*)$ content.php?page=$1 [L,NC,QSA]
+
+    
+    RewriteRule ^projects$ projects.php [L,NC,QSA]
+    RewriteRule ^contact-us$ contact-us.php [L,NC,QSA]
+    RewriteRule ^subscribe subscribe.php [L,NC,QSA]
+    RewriteRule ^articles$ blog.php [L,NC,QSA]
+    RewriteRule ^articles/(.*)$ blog.php?title=$1 [L,NC,QSA]
+    RewriteRule ^profile$ mypage.php [L,NC,QSA]
+    RewriteRule ^settings$ settings.php [L,NC,QSA]
+    RewriteRule ^register$ signup.php [L,NC,QSA]
+    RewriteRule ^login$ login.php [L,NC,QSA]
+    RewriteRule ^forgot-password$ forgot-password.php [L,NC,QSA]
+    RewriteRule ^logout$ logout.php [L,NC,QSA]
+
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_URI} !^/$
+    RewriteCond %{REQUEST_URI} !^contact-us$ [NC]
+    RewriteCond %{REQUEST_URI} !^error404.html$ [NC]
+    RewriteRule ^(.*)$ page-content.php?page=$1 [L,QSA]
+
+</IfModule>
+
+ErrorDocument 404 /error404.html
+ErrorDocument 500 /error500.html
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php73” package as the default “PHP” programming language.
+<IfModule mime_module>
+
+# note : in any domain of subfolder, this project is not running, i have comment below line : dt.13/10/2022 Time : 12:44pm 
+#   AddHandler application/x-httpd-ea-php73 .php .php7 .phtml
+
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

@@ -1,0 +1,130 @@
+CRITICAL - 2022-10-14 16:02:03 --> Undefined array key 0
+in APPPATH\Controllers\Admin\PhotoGalleryController.php on line 44.
+ 1 APPPATH\Controllers\Admin\PhotoGalleryController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Controllers\\Admin\\PhotoGalleryController.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\PhotoGalleryController->addGallery()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PhotoGalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:02:23 --> Undefined array key 0
+in APPPATH\Controllers\Admin\PhotoGalleryController.php on line 44.
+ 1 APPPATH\Controllers\Admin\PhotoGalleryController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Controllers\\Admin\\PhotoGalleryController.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\PhotoGalleryController->addGallery()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PhotoGalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:03:17 --> Undefined array key 1
+in APPPATH\Controllers\Admin\PhotoGalleryController.php on line 44.
+ 1 APPPATH\Controllers\Admin\PhotoGalleryController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Controllers\\Admin\\PhotoGalleryController.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\PhotoGalleryController->addGallery()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PhotoGalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:03:38 --> Undefined array key "n"
+in APPPATH\Controllers\Admin\PhotoGalleryController.php on line 44.
+ 1 APPPATH\Controllers\Admin\PhotoGalleryController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "n"', 'APPPATH\\Controllers\\Admin\\PhotoGalleryController.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\PhotoGalleryController->addGallery()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PhotoGalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:12:30 --> Cannot use object of type CodeIgniter\HTTP\Files\UploadedFile as array
+in APPPATH\Controllers\Admin\PhotoGalleryController.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\PhotoGalleryController->addGallery()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PhotoGalleryController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:12:35 --> Cannot use object of type CodeIgniter\HTTP\Files\UploadedFile as array
+in APPPATH\Controllers\Admin\PhotoGalleryController.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\PhotoGalleryController->addGallery()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PhotoGalleryController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:12:40 --> Cannot use object of type CodeIgniter\HTTP\Files\UploadedFile as array
+in APPPATH\Controllers\Admin\PhotoGalleryController.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\PhotoGalleryController->addGallery()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PhotoGalleryController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:12:46 --> Cannot use object of type CodeIgniter\HTTP\Files\UploadedFile as array
+in APPPATH\Controllers\Admin\PhotoGalleryController.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\PhotoGalleryController->addGallery()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PhotoGalleryController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:13:51 --> Undefined constant "App\Controllers\Admin\this"
+in APPPATH\Controllers\Admin\PhotoGalleryController.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\PhotoGalleryController->addGallery()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PhotoGalleryController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:23:45 --> Call to undefined method CodeIgniter\HTTP\Files\UploadedFile::getRandomNumber()
+in APPPATH\Controllers\Admin\PhotoGalleryController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\PhotoGalleryController->addGallery()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PhotoGalleryController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:35:05 --> unlink(assets/admin/img/city_slider/original/1_1665482688_d0ed5057e37ccbe561e8.jpg): No such file or directory
+in APPPATH\Controllers\Admin\CitySliderController.php on line 169.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(assets/admin/img/city_slider/original/1_1665482688_d0ed5057e37ccbe561e8.jpg): No such file or directory', 'APPPATH\\Controllers\\Admin\\CitySliderController.php', 169)
+ 2 APPPATH\Controllers\Admin\CitySliderController.php(169): unlink('assets/admin/img/city_slider/original/1_1665482688_d0ed5057e37ccbe561e8.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\CitySliderController->deleteSlider('5')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\CitySliderController))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:37:04 --> unlink(assets/admin/img/city_slider/original/1_1665482688_d0ed5057e37ccbe561e8.jpg): No such file or directory
+in APPPATH\Controllers\Admin\CitySliderController.php on line 169.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(assets/admin/img/city_slider/original/1_1665482688_d0ed5057e37ccbe561e8.jpg): No such file or directory', 'APPPATH\\Controllers\\Admin\\CitySliderController.php', 169)
+ 2 APPPATH\Controllers\Admin\CitySliderController.php(169): unlink('assets/admin/img/city_slider/original/1_1665482688_d0ed5057e37ccbe561e8.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\CitySliderController->deleteSlider('5')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\CitySliderController))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:38:14 --> unlink(assets/admin/img/city_slider/original/1_1665482688_d0ed5057e37ccbe561e8.jpg): No such file or directory
+in APPPATH\Controllers\Admin\CitySliderController.php on line 170.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(assets/admin/img/city_slider/original/1_1665482688_d0ed5057e37ccbe561e8.jpg): No such file or directory', 'APPPATH\\Controllers\\Admin\\CitySliderController.php', 170)
+ 2 APPPATH\Controllers\Admin\CitySliderController.php(170): unlink('assets/admin/img/city_slider/original/1_1665482688_d0ed5057e37ccbe561e8.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\CitySliderController->deleteSlider('5')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\CitySliderController))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:39:43 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Admin\CitySliderController.php on line 169.
+ 1 APPPATH\Controllers\Admin\CitySliderController.php(169): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Admin\\CitySliderController.php', 169)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\CitySliderController->deleteSlider('5')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\CitySliderController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:40:41 --> unlink(assets/admin/img/gallery/original/2-3_1665420483_f229f8b6b175e5409c3d.jpg): No such file or directory
+in APPPATH\Controllers\Admin\PhotoGalleryController.php on line 169.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(assets/admin/img/gallery/original/2-3_1665420483_f229f8b6b175e5409c3d.jpg): No such file or directory', 'APPPATH\\Controllers\\Admin\\PhotoGalleryController.php', 169)
+ 2 APPPATH\Controllers\Admin\PhotoGalleryController.php(169): unlink('assets/admin/img/gallery/original/2-3_1665420483_f229f8b6b175e5409c3d.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\PhotoGalleryController->deleteGallery('6')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PhotoGalleryController))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:42:37 --> Undefined variable $state1
+in APPPATH\Views\admin\apartment\index.php on line 77.
+ 1 APPPATH\Views\admin\apartment\index.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $state1', 'APPPATH\\Views\\admin\\apartment\\index.php', 77)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\apartment\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('admin/apartment/index', [], true)
+ 5 APPPATH\Controllers\Admin\StateApartmentController.php(29): view('admin/apartment/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\StateApartmentController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\StateApartmentController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

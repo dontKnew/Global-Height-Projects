@@ -1,0 +1,1 @@
+__ci_last_regenerate|i:1665300344;_ci_previous_url|s:32:"http://localhost:8888/states/add";id|s:1:"1";name|s:5:"Admin";email|s:17:"admin@existay.com";logged_in|b:1;err|s:73:"Error : Allowed fields must be specified for model: App\Models\StateModel";__ci_vars|a:1:{s:3:"err";s:3:"old";}

@@ -1,0 +1,33 @@
+CRITICAL - 2022-10-17 13:38:38 --> ucwords(): Passing null to parameter #1 ($string) of type string is deprecated
+in APPPATH\Controllers\AboutController.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'ucwords(): Passing null to parameter #1 ($string) of type string is deprecated', 'APPPATH\\Controllers\\AboutController.php', 34)
+ 2 APPPATH\Controllers\AboutController.php(34): ucwords(null)
+ 3 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\AboutController->sendEmail()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AboutController))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 13:40:37 --> syntax error, unexpected double-quoted string "send-email", expecting ")"
+in APPPATH\Config\Routes.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 13:40:46 --> ucwords(): Passing null to parameter #1 ($string) of type string is deprecated
+in APPPATH\Controllers\AboutController.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'ucwords(): Passing null to parameter #1 ($string) of type string is deprecated', 'APPPATH\\Controllers\\AboutController.php', 34)
+ 2 APPPATH\Controllers\AboutController.php(34): ucwords(null)
+ 3 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\AboutController->sendEmail()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AboutController))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 13:41:20 --> ucwords(): Passing null to parameter #1 ($string) of type string is deprecated
+in APPPATH\Controllers\AboutController.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'ucwords(): Passing null to parameter #1 ($string) of type string is deprecated', 'APPPATH\\Controllers\\AboutController.php', 34)
+ 2 APPPATH\Controllers\AboutController.php(34): ucwords(null)
+ 3 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\AboutController->sendEmail()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AboutController))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

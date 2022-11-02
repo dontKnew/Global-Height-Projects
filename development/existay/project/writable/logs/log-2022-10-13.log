@@ -1,0 +1,1399 @@
+CRITICAL - 2022-10-13 07:59:28 --> Undefined variable $7
+in APPPATH\Views\include\admin.php on line 151.
+ 1 APPPATH\Views\include\admin.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $7', 'APPPATH\\Views\\include\\admin.php', 151)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\include\\admin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('include/admin', [], true)
+ 5 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('admin/dashboard/index', [], true)
+ 6 APPPATH\Controllers\Admin\DashboardController.php(38): view('admin/dashboard/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\DashboardController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 08:01:27 --> Undefined array key "state"
+in APPPATH\Views\admin\gallery\index.php on line 60.
+ 1 APPPATH\Views\admin\gallery\index.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "state"', 'APPPATH\\Views\\admin\\gallery\\index.php', 60)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\gallery\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('admin/gallery/index', [], true)
+ 5 APPPATH\Controllers\Admin\PhotoGalleryController.php(28): view('admin/gallery/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\PhotoGalleryController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PhotoGalleryController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 08:02:53 --> Undefined array key "state"
+in APPPATH\Views\admin\testimonial\index.php on line 59.
+ 1 APPPATH\Views\admin\testimonial\index.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "state"', 'APPPATH\\Views\\admin\\testimonial\\index.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\testimonial\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('admin/testimonial/index', [], true)
+ 5 APPPATH\Controllers\Admin\TestimonialController.php(28): view('admin/testimonial/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\TestimonialController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\TestimonialController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 08:14:39 --> Undefined array key "state"
+in APPPATH\Views\admin\faqs\index.php on line 50.
+ 1 APPPATH\Views\admin\faqs\index.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "state"', 'APPPATH\\Views\\admin\\faqs\\index.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\faqs\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('admin/faqs/index', [], true)
+ 5 APPPATH\Controllers\Admin\FaqsController.php(29): view('admin/faqs/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\FaqsController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\FaqsController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 08:15:35 --> Undefined array key "state"
+in APPPATH\Views\admin\gallery\index.php on line 60.
+ 1 APPPATH\Views\admin\gallery\index.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "state"', 'APPPATH\\Views\\admin\\gallery\\index.php', 60)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\gallery\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('admin/gallery/index', [], true)
+ 5 APPPATH\Controllers\Admin\PhotoGalleryController.php(28): view('admin/gallery/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\PhotoGalleryController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PhotoGalleryController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 08:17:28 --> Undefined array key "state"
+in APPPATH\Views\admin\gallery\index.php on line 60.
+ 1 APPPATH\Views\admin\gallery\index.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "state"', 'APPPATH\\Views\\admin\\gallery\\index.php', 60)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\gallery\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('admin/gallery/index', [], true)
+ 5 APPPATH\Controllers\Admin\PhotoGalleryController.php(28): view('admin/gallery/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\PhotoGalleryController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PhotoGalleryController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 09:03:09 --> Undefined array key "state"
+in APPPATH\Views\admin\apartment\add.php on line 386.
+ 1 APPPATH\Views\admin\apartment\add.php(386): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "state"', 'APPPATH\\Views\\admin\\apartment\\add.php', 386)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\apartment\\add.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('admin/apartment/add', [], true)
+ 5 APPPATH\Controllers\Admin\StateApartmentController.php(147): view('admin/apartment/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\StateApartmentController->addApartment()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\StateApartmentController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 09:09:10 --> Undefined variable $title
+in APPPATH\Views\admin\city_slider\add.php on line 28.
+ 1 APPPATH\Views\admin\city_slider\add.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\admin\\city_slider\\add.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\city_slider\\add.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('admin/city_slider/add', [], true)
+ 5 APPPATH\Controllers\Admin\CitySliderController.php(84): view('admin/city_slider/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\CitySliderController->addSlider()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\CitySliderController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 09:11:40 --> Undefined variable $title
+in APPPATH\Views\admin\city_slider\add.php on line 28.
+ 1 APPPATH\Views\admin\city_slider\add.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\admin\\city_slider\\add.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\city_slider\\add.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('admin/city_slider/add', [], true)
+ 5 APPPATH\Controllers\Admin\CitySliderController.php(84): view('admin/city_slider/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\CitySliderController->addSlider()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\CitySliderController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 09:13:16 --> Undefined variable $title
+in APPPATH\Views\admin\city_slider\add.php on line 28.
+ 1 APPPATH\Views\admin\city_slider\add.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\admin\\city_slider\\add.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\city_slider\\add.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('admin/city_slider/add', [], true)
+ 5 APPPATH\Controllers\Admin\CitySliderController.php(84): view('admin/city_slider/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\CitySliderController->addSlider()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\CitySliderController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 09:14:10 --> Class "App\Controllers\Admin\StateApartmentModel" not found
+in APPPATH\Controllers\Admin\CitySliderController.php on line 74.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\CitySliderController->addSlider()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\CitySliderController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 09:17:18 --> array_map(): Argument #1 ($callback) must be a valid callback or null, function "trim, strtolower" not found or invalid function name
+in APPPATH\Controllers\Admin\CitySliderController.php on line 65.
+ 1 APPPATH\Controllers\Admin\CitySliderController.php(65): array_map('trim, strtolower', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\CitySliderController->addSlider()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\CitySliderController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 09:22:02 --> Undefined array key "title"
+in APPPATH\Views\admin\city_slider\update.php on line 31.
+ 1 APPPATH\Views\admin\city_slider\update.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'APPPATH\\Views\\admin\\city_slider\\update.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\city_slider\\update.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('admin/city_slider/update', [], true)
+ 5 APPPATH\Controllers\Admin\CitySliderController.php(99): view('admin/city_slider/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\CitySliderController->editSlider('9')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\CitySliderController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 09:22:55 --> Undefined array key "title"
+in APPPATH\Views\admin\city_slider\update.php on line 31.
+ 1 APPPATH\Views\admin\city_slider\update.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'APPPATH\\Views\\admin\\city_slider\\update.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\city_slider\\update.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('admin/city_slider/update', [], true)
+ 5 APPPATH\Controllers\Admin\CitySliderController.php(99): view('admin/city_slider/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\CitySliderController->editSlider('9')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\CitySliderController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 09:23:07 --> Undefined array key "title"
+in APPPATH\Views\admin\city_slider\update.php on line 31.
+ 1 APPPATH\Views\admin\city_slider\update.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'APPPATH\\Views\\admin\\city_slider\\update.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\city_slider\\update.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('admin/city_slider/update', [], true)
+ 5 APPPATH\Controllers\Admin\CitySliderController.php(99): view('admin/city_slider/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\CitySliderController->editSlider('9')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\CitySliderController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 09:25:31 --> Undefined array key "title"
+in APPPATH\Views\admin\city_slider\update.php on line 32.
+ 1 APPPATH\Views\admin\city_slider\update.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'APPPATH\\Views\\admin\\city_slider\\update.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\city_slider\\update.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('admin/city_slider/update', [], true)
+ 5 APPPATH\Controllers\Admin\CitySliderController.php(99): view('admin/city_slider/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\CitySliderController->editSlider('9')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\CitySliderController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 09:30:07 --> Undefined array key "state"
+in APPPATH\Views\admin\gallery\index.php on line 60.
+ 1 APPPATH\Views\admin\gallery\index.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "state"', 'APPPATH\\Views\\admin\\gallery\\index.php', 60)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\gallery\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('admin/gallery/index', [], true)
+ 5 APPPATH\Controllers\Admin\PhotoGalleryController.php(28): view('admin/gallery/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\PhotoGalleryController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PhotoGalleryController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 09:34:37 --> Undefined variable $data1
+in APPPATH\Views\admin\gallery\update.php on line 37.
+ 1 APPPATH\Views\admin\gallery\update.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data1', 'APPPATH\\Views\\admin\\gallery\\update.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\gallery\\update.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('admin/gallery/update', [], true)
+ 5 APPPATH\Controllers\Admin\PhotoGalleryController.php(97): view('admin/gallery/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\PhotoGalleryController->editGallery('3')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PhotoGalleryController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 09:42:02 --> Undefined variable $data1
+in APPPATH\Views\admin\faqs\update.php on line 36.
+ 1 APPPATH\Views\admin\faqs\update.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data1', 'APPPATH\\Views\\admin\\faqs\\update.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\faqs\\update.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('admin/faqs/update', [], true)
+ 5 APPPATH\Controllers\Admin\FaqsController.php(68): view('admin/faqs/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\FaqsController->editFaqs('11')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\FaqsController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 09:46:14 --> Undefined array key "title"
+in APPPATH\Views\admin\faqs\index.php on line 49.
+ 1 APPPATH\Views\admin\faqs\index.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'APPPATH\\Views\\admin\\faqs\\index.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\faqs\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('admin/faqs/index', [], true)
+ 5 APPPATH\Controllers\Admin\FaqsController.php(29): view('admin/faqs/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\FaqsController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\FaqsController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 12:59:06 --> Undefined variable $data1
+in APPPATH\Views\admin\testimonial\update.php on line 37.
+ 1 APPPATH\Views\admin\testimonial\update.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data1', 'APPPATH\\Views\\admin\\testimonial\\update.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\testimonial\\update.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('admin/testimonial/update', [], true)
+ 5 APPPATH\Controllers\Admin\TestimonialController.php(97): view('admin/testimonial/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\TestimonialController->editTestimonial('3')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\TestimonialController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 12:59:50 --> Undefined variable $data1
+in APPPATH\Views\admin\testimonial\update.php on line 37.
+ 1 APPPATH\Views\admin\testimonial\update.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data1', 'APPPATH\\Views\\admin\\testimonial\\update.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\testimonial\\update.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('admin/testimonial/update', [], true)
+ 5 APPPATH\Controllers\Admin\TestimonialController.php(97): view('admin/testimonial/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\TestimonialController->editTestimonial('3')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\TestimonialController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 13:03:54 --> Undefined array key "page_title"
+in APPPATH\Views\admin\apartment\update.php on line 290.
+ 1 APPPATH\Views\admin\apartment\update.php(290): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "page_title"', 'APPPATH\\Views\\admin\\apartment\\update.php', 290)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\apartment\\update.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('admin/apartment/update', [], true)
+ 5 APPPATH\Controllers\Admin\StateApartmentController.php(162): view('admin/apartment/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\StateApartmentController->editApartment('14')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\StateApartmentController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 13:04:05 --> Undefined array key "page_title"
+in APPPATH\Views\admin\apartment\update.php on line 290.
+ 1 APPPATH\Views\admin\apartment\update.php(290): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "page_title"', 'APPPATH\\Views\\admin\\apartment\\update.php', 290)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\apartment\\update.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('admin/apartment/update', [], true)
+ 5 APPPATH\Controllers\Admin\StateApartmentController.php(162): view('admin/apartment/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\StateApartmentController->editApartment('14')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\StateApartmentController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-10-13 13:13:45 --> mysqli_sql_exception: Duplicate entry 'bluo studio dwarka colony mkt - kitchen, balcony' for key 'title' in C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `state_a...', 0)
+#1 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `state_a...')
+#2 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `state_a...')
+#3 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `state_a...', Array, false)
+#4 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\BaseModel.php(885): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Model.php(693): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\globalHeight\project\existay\app\Controllers\Admin\StateApartmentController.php(179): CodeIgniter\Model->update('14', Array)
+#8 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Admin\StateApartmentController->updateApartment()
+#9 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\StateApartmentController))
+#10 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\globalHeight\project\existay\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-10-13 13:16:55 --> mysqli_sql_exception: Duplicate entry 'bluo studio defence colony mkt - kitchen, balcony' for key 'title' in C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `state_a...', 0)
+#1 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `state_a...')
+#2 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `state_a...')
+#3 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `state_a...', Array, false)
+#4 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\BaseModel.php(885): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Model.php(693): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\globalHeight\project\existay\app\Controllers\Admin\StateApartmentController.php(179): CodeIgniter\Model->update('11', Array)
+#8 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Admin\StateApartmentController->updateApartment()
+#9 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\StateApartmentController))
+#10 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\globalHeight\project\existay\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-10-13 13:20:22 --> mysqli_sql_exception: Duplicate entry 'bluo studio defence colony mkt - kitchen, balcony' for key 'title' in C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `state_a...', 0)
+#1 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `state_a...')
+#2 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `state_a...')
+#3 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `state_a...', Array, false)
+#4 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\BaseModel.php(885): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Model.php(693): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\globalHeight\project\existay\app\Controllers\Admin\StateApartmentController.php(180): CodeIgniter\Model->update('11', Array)
+#8 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Admin\StateApartmentController->updateApartment()
+#9 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\StateApartmentController))
+#10 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\globalHeight\project\existay\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-10-13 13:21:54 --> mysqli_sql_exception: Duplicate entry 'bluo studio defence colony mkt - kitchen, balcony' for key 'title' in C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `state_a...', 0)
+#1 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `state_a...')
+#2 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `state_a...')
+#3 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `state_a...', Array, false)
+#4 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\BaseModel.php(885): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Model.php(693): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\globalHeight\project\existay\app\Controllers\Admin\StateApartmentController.php(181): CodeIgniter\Model->update('11', Array)
+#8 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Admin\StateApartmentController->updateApartment()
+#9 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\StateApartmentController))
+#10 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\globalHeight\project\existay\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-10-13 13:21:59 --> mysqli_sql_exception: Duplicate entry 'bluo studio defence colony mkt - kitchen, balcony' for key 'title' in C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `state_a...', 0)
+#1 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `state_a...')
+#2 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `state_a...')
+#3 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `state_a...', Array, false)
+#4 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\BaseModel.php(885): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Model.php(693): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\globalHeight\project\existay\app\Controllers\Admin\StateApartmentController.php(181): CodeIgniter\Model->update('11', Array)
+#8 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Admin\StateApartmentController->updateApartment()
+#9 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\StateApartmentController))
+#10 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\globalHeight\project\existay\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-10-13 13:31:26 --> Undefined property: App\Controllers\Admin\StateApartmentController::$apartment
+in APPPATH\Controllers\Admin\StateApartmentController.php on line 139.
+ 1 APPPATH\Controllers\Admin\StateApartmentController.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\StateApartmentController::$apartment', 'APPPATH\\Controllers\\Admin\\StateApartmentController.php', 139)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\StateApartmentController->updateApartment()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\StateApartmentController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-10-13 13:56:15 --> mysqli_sql_exception: Duplicate entry 'bluo studio dwarka colony mkt - kitchen, balcony' for key 'title' in C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `state_a...', 0)
+#1 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `state_a...')
+#2 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `state_a...')
+#3 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `state_a...', Array, false)
+#4 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\BaseModel.php(885): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Model.php(693): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\globalHeight\project\existay\app\Controllers\Admin\StateApartmentController.php(182): CodeIgniter\Model->update('11', Array)
+#8 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Admin\StateApartmentController->updateApartment()
+#9 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\StateApartmentController))
+#10 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\globalHeight\project\existay\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-10-13 14:05:41 --> Undefined array key "state"
+in APPPATH\Views\home.php on line 591.
+ 1 APPPATH\Views\home.php(591): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "state"', 'APPPATH\\Views\\home.php', 591)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\HomeController.php(24): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\HomeController->home()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 14:21:35 --> Undefined variable $state1
+in APPPATH\Views\admin\testimonial\add.php on line 36.
+ 1 APPPATH\Views\admin\testimonial\add.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $state1', 'APPPATH\\Views\\admin\\testimonial\\add.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\testimonial\\add.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('admin/testimonial/add', [], true)
+ 5 APPPATH\Controllers\Admin\TestimonialController.php(82): view('admin/testimonial/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\TestimonialController->addTestimonial()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\TestimonialController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 14:26:13 --> Undefined variable $state1
+in APPPATH\Views\admin\testimonial\update.php on line 37.
+ 1 APPPATH\Views\admin\testimonial\update.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $state1', 'APPPATH\\Views\\admin\\testimonial\\update.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\testimonial\\update.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('admin/testimonial/update', [], true)
+ 5 APPPATH\Controllers\Admin\TestimonialController.php(106): view('admin/testimonial/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\TestimonialController->editTestimonial('4')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\TestimonialController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 14:26:18 --> Undefined variable $state1
+in APPPATH\Views\admin\testimonial\update.php on line 37.
+ 1 APPPATH\Views\admin\testimonial\update.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $state1', 'APPPATH\\Views\\admin\\testimonial\\update.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\testimonial\\update.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('admin/testimonial/update', [], true)
+ 5 APPPATH\Controllers\Admin\TestimonialController.php(106): view('admin/testimonial/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\TestimonialController->editTestimonial('4')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\TestimonialController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-10-13 14:33:42 --> mysqli_sql_exception: Unknown column 'state_area' in 'where clause' in C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\globalHeight\project\existay\app\Controllers\CityController.php(30): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\CityController->CityApartment('Kashmir', 'Dwarka')
+#8 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CityController))
+#9 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\globalHeight\project\existay\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-10-13 14:33:42 --> Unknown column 'state_area' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `faqs`
+WHERE `state_area` = \'dwarka\'
+AND `state` = \'kashmir\'
+AND `privacy` = \'public\'
+ORDER BY `id` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `faqs`
+WHERE `state_area` = \'dwarka\'
+AND `state` = \'kashmir\'
+AND `privacy` = \'public\'
+ORDER BY `id` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `faqs`
+WHERE `state_area` = \'dwarka\'
+AND `state` = \'kashmir\'
+AND `privacy` = \'public\'
+ORDER BY `id` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `faqs`
+WHERE `state_area` = :state_area:
+AND `state` = :state:
+AND `privacy` = :privacy:
+ORDER BY `id` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\CityController.php(30): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\CityController->CityApartment('Kashmir', 'Dwarka')
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CityController))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 14:48:05 --> preg_replace(): Unknown modifier '='
+in SYSTEMPATH\Helpers\inflector_helper.php on line 202.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_replace(): Unknown modifier \'=\'', 'SYSTEMPATH\\Helpers\\inflector_helper.php', 202)
+ 2 SYSTEMPATH\Helpers\inflector_helper.php(202): preg_replace('/[-,&!/=]+/', ' ', 'bluo studio dwarka colony mkt - kitchen, balcony')
+ 3 APPPATH\Controllers\CityController.php(17): humanize('bluo studio dwarka colony mkt - kitchen, balcony', '-,&!/=')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\CityController->CityApartment('kashmir', 'bluo-studio-dwarka-colony-mkt---kitchen,-balcony')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CityController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 16:52:36 --> humanize(): Argument #2 ($separator) must be of type string, array given, called in C:\xampp\htdocs\globalHeight\project\existay\app\Controllers\CityController.php on line 17
+in SYSTEMPATH\Helpers\inflector_helper.php on line 198.
+ 1 APPPATH\Controllers\CityController.php(17): humanize('Bluo Studio Dwarka Colony  Mkt - Kitchen, Balcony', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\CityController->CityApartment('kashmir', 'Bluo Studio Dwarka Colony  Mkt - Kitchen, Balcony')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CityController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 16:52:43 --> humanize(): Argument #2 ($separator) must be of type string, array given, called in C:\xampp\htdocs\globalHeight\project\existay\app\Controllers\CityController.php on line 17
+in SYSTEMPATH\Helpers\inflector_helper.php on line 198.
+ 1 APPPATH\Controllers\CityController.php(17): humanize('Bluo Studio Dwarka Colony  Mkt - Kitchen, Balcony', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\CityController->CityApartment('kashmir', 'Bluo Studio Dwarka Colony  Mkt - Kitchen, Balcony')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CityController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 17:02:57 --> preg_replace(): Unknown modifier ','
+in SYSTEMPATH\Helpers\inflector_helper.php on line 202.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_replace(): Unknown modifier \',\'', 'SYSTEMPATH\\Helpers\\inflector_helper.php', 202)
+ 2 SYSTEMPATH\Helpers\inflector_helper.php(202): preg_replace('/[-,&,^,$,#,!,~,`,},[,*,;,%,>,/,|,<,:,|,+,=,@,{]+/', ' ', 'Bluo Studio *&^%$#@!~`=+{sajid}[]|\\/><,.? Dwarka Colony  *Mkt - % @ Kitchen, Balcony;')
+ 3 APPPATH\Controllers\CityController.php(17): humanize('Bluo Studio *&^%$#@!~`=+{sajid}[]|\\/><,.? Dwarka Colony  *Mkt - % @ Kitchen, Balcony;', '-,&,^,$,#,!,~,`,},[,*,;,%,>,/,|,<,:,|,+,=,@,{')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\CityController->CityApartment('kashmir', 'Bluo Studio *&^%$#@!~`=+{sajid}[]|\\/><,.? Dwarka Colony  *Mkt - % @ Kitchen, Balcony;')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CityController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 17:04:01 --> preg_replace(): Unknown modifier '['
+in SYSTEMPATH\Helpers\inflector_helper.php on line 202.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_replace(): Unknown modifier \'[\'', 'SYSTEMPATH\\Helpers\\inflector_helper.php', 202)
+ 2 SYSTEMPATH\Helpers\inflector_helper.php(202): preg_replace('/[-,&,^,$,#,!,~,`,},?,/[,*,;,%,>,.,|,<,:,|,+,=,@,{]+/', ' ', 'Bluo Studio *&^%$#@!~`=+{sajid}[]|\\/><,.? Dwarka Colony  *Mkt - % @ Kitchen, Balcony;')
+ 3 APPPATH\Controllers\CityController.php(17): humanize('Bluo Studio *&^%$#@!~`=+{sajid}[]|\\/><,.? Dwarka Colony  *Mkt - % @ Kitchen, Balcony;', '-,&,^,$,#,!,~,`,},?,/[,*,;,%,>,.,|,<,:,|,+,=,@,{')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\CityController->CityApartment('kashmir', 'Bluo Studio *&^%$#@!~`=+{sajid}[]|\\/><,.? Dwarka Colony  *Mkt - % @ Kitchen, Balcony;')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CityController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 17:04:02 --> preg_replace(): Unknown modifier '['
+in SYSTEMPATH\Helpers\inflector_helper.php on line 202.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_replace(): Unknown modifier \'[\'', 'SYSTEMPATH\\Helpers\\inflector_helper.php', 202)
+ 2 SYSTEMPATH\Helpers\inflector_helper.php(202): preg_replace('/[-,&,^,$,#,!,~,`,},?,/[,*,;,%,>,.,|,<,:,|,+,=,@,{]+/', ' ', 'Bluo Studio *&^%$#@!~`=+{sajid}[]|\\/><,.? Dwarka Colony  *Mkt - % @ Kitchen, Balcony;')
+ 3 APPPATH\Controllers\CityController.php(17): humanize('Bluo Studio *&^%$#@!~`=+{sajid}[]|\\/><,.? Dwarka Colony  *Mkt - % @ Kitchen, Balcony;', '-,&,^,$,#,!,~,`,},?,/[,*,;,%,>,.,|,<,:,|,+,=,@,{')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\CityController->CityApartment('kashmir', 'Bluo Studio *&^%$#@!~`=+{sajid}[]|\\/><,.? Dwarka Colony  *Mkt - % @ Kitchen, Balcony;')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CityController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 17:05:12 --> preg_replace(): Unknown modifier ']'
+in SYSTEMPATH\Helpers\inflector_helper.php on line 202.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_replace(): Unknown modifier \']\'', 'SYSTEMPATH\\Helpers\\inflector_helper.php', 202)
+ 2 SYSTEMPATH\Helpers\inflector_helper.php(202): preg_replace('/[],/]+/', ' ', 'Bluo Studio  Sajid ] \\/  Dwarka Colony   Mkt       Kitchen  Balcony')
+ 3 APPPATH\Controllers\CityController.php(18): humanize('Bluo Studio  Sajid ] \\/  Dwarka Colony   Mkt       Kitchen  Balcony ', '],/')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\CityController->CityApartment('kashmir', 'Bluo Studio  Sajid ] \\/  Dwarka Colony   Mkt       Kitchen  Balcony ')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CityController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 17:05:26 --> preg_replace(): Unknown modifier ']'
+in SYSTEMPATH\Helpers\inflector_helper.php on line 202.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_replace(): Unknown modifier \']\'', 'SYSTEMPATH\\Helpers\\inflector_helper.php', 202)
+ 2 SYSTEMPATH\Helpers\inflector_helper.php(202): preg_replace('/[/]+/', ' ', 'Bluo Studio  Sajid   \\/  Dwarka Colony   Mkt       Kitchen  Balcony')
+ 3 APPPATH\Controllers\CityController.php(19): humanize('Bluo Studio  Sajid   \\/  Dwarka Colony   Mkt       Kitchen  Balcony', 'C:\\')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\CityController->CityApartment('kashmir', 'Bluo Studio  Sajid   \\/  Dwarka Colony   Mkt       Kitchen  Balcony')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CityController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 17:05:27 --> preg_replace(): Unknown modifier ']'
+in SYSTEMPATH\Helpers\inflector_helper.php on line 202.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_replace(): Unknown modifier \']\'', 'SYSTEMPATH\\Helpers\\inflector_helper.php', 202)
+ 2 SYSTEMPATH\Helpers\inflector_helper.php(202): preg_replace('/[/]+/', ' ', 'Bluo Studio  Sajid   \\/  Dwarka Colony   Mkt       Kitchen  Balcony')
+ 3 APPPATH\Controllers\CityController.php(19): humanize('Bluo Studio  Sajid   \\/  Dwarka Colony   Mkt       Kitchen  Balcony', 'C:\\')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\CityController->CityApartment('kashmir', 'Bluo Studio  Sajid   \\/  Dwarka Colony   Mkt       Kitchen  Balcony')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CityController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 17:05:44 --> preg_replace(): Unknown modifier '`'
+in SYSTEMPATH\Helpers\inflector_helper.php on line 202.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_replace(): Unknown modifier \'`\'', 'SYSTEMPATH\\Helpers\\inflector_helper.php', 202)
+ 2 SYSTEMPATH\Helpers\inflector_helper.php(202): preg_replace('/[`/`]+/', ' ', 'Bluo Studio  Sajid   \\/  Dwarka Colony   Mkt       Kitchen  Balcony')
+ 3 APPPATH\Controllers\CityController.php(19): humanize('Bluo Studio  Sajid   \\/  Dwarka Colony   Mkt       Kitchen  Balcony', '`/`')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\CityController->CityApartment('kashmir', 'Bluo Studio  Sajid   \\/  Dwarka Colony   Mkt       Kitchen  Balcony')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CityController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 17:06:01 --> preg_replace(): Compilation failed: missing terminating ] for character class at offset 3
+in SYSTEMPATH\Helpers\inflector_helper.php on line 202.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_replace(): Compilation failed: missing terminating ] for character class at offset 3', 'SYSTEMPATH\\Helpers\\inflector_helper.php', 202)
+ 2 SYSTEMPATH\Helpers\inflector_helper.php(202): preg_replace('/[]+/', ' ', 'Bluo Studio  Sajid   \\/  Dwarka Colony   Mkt       Kitchen  Balcony')
+ 3 APPPATH\Controllers\CityController.php(19): humanize('Bluo Studio  Sajid   \\/  Dwarka Colony   Mkt       Kitchen  Balcony', 'ROOTPATH\\public')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\CityController->CityApartment('kashmir', 'Bluo Studio  Sajid   \\/  Dwarka Colony   Mkt       Kitchen  Balcony')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CityController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 17:06:40 --> preg_replace(): Compilation failed: missing terminating ] for character class at offset 3
+in SYSTEMPATH\Helpers\inflector_helper.php on line 202.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_replace(): Compilation failed: missing terminating ] for character class at offset 3', 'SYSTEMPATH\\Helpers\\inflector_helper.php', 202)
+ 2 SYSTEMPATH\Helpers\inflector_helper.php(202): preg_replace('/[]+/', ' ', 'Bluo Studio  Sajid   \\/  Dwarka Colony   Mkt       Kitchen  Balcony')
+ 3 APPPATH\Controllers\CityController.php(19): humanize('Bluo Studio  Sajid   \\/  Dwarka Colony   Mkt       Kitchen  Balcony', 'ROOTPATH\\public')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\CityController->CityApartment('kashmir', 'Bluo Studio  Sajid   \\/  Dwarka Colony   Mkt       Kitchen  Balcony')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CityController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 17:06:48 --> preg_replace(): Compilation failed: missing terminating ] for character class at offset 3
+in SYSTEMPATH\Helpers\inflector_helper.php on line 202.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_replace(): Compilation failed: missing terminating ] for character class at offset 3', 'SYSTEMPATH\\Helpers\\inflector_helper.php', 202)
+ 2 SYSTEMPATH\Helpers\inflector_helper.php(202): preg_replace('/[]+/', ' ', 'Bluo Studio  Sajid   \\/  Dwarka Colony   Mkt       Kitchen  Balcony')
+ 3 APPPATH\Controllers\CityController.php(19): humanize('Bluo Studio  Sajid   \\/  Dwarka Colony   Mkt       Kitchen  Balcony', 'ROOTPATH\\public')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\CityController->CityApartment('kashmir', 'Bluo Studio  Sajid   \\/  Dwarka Colony   Mkt       Kitchen  Balcony')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CityController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 17:07:25 --> preg_replace(): Compilation failed: missing terminating ] for character class at offset 3
+in SYSTEMPATH\Helpers\inflector_helper.php on line 202.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_replace(): Compilation failed: missing terminating ] for character class at offset 3', 'SYSTEMPATH\\Helpers\\inflector_helper.php', 202)
+ 2 SYSTEMPATH\Helpers\inflector_helper.php(202): preg_replace('/[]+/', ' ', 'Bluo Studio  Sajid   \\/  Dwarka Colony   Mkt       Kitchen  Balcony')
+ 3 APPPATH\Controllers\CityController.php(19): humanize('Bluo Studio  Sajid   \\/  Dwarka Colony   Mkt       Kitchen  Balcony', 'ROOTPATH\\public')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\CityController->CityApartment('kashmir', 'Bluo Studio  Sajid   \\/  Dwarka Colony   Mkt       Kitchen  Balcony')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CityController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 17:08:08 --> syntax error, unexpected string content "", expecting "-" or identifier or variable or number
+in APPPATH\Controllers\CityController.php on line 21.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\CityController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CityController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CityController')
+ 4 SYSTEMPATH\CodeIgniter.php(852): class_exists('\\App\\Controllers\\CityController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 17:08:24 --> preg_replace(): Unknown modifier ']'
+in SYSTEMPATH\Helpers\inflector_helper.php on line 202.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_replace(): Unknown modifier \']\'', 'SYSTEMPATH\\Helpers\\inflector_helper.php', 202)
+ 2 SYSTEMPATH\Helpers\inflector_helper.php(202): preg_replace('/[/]+/', ' ', 'Bluo Studio  Sajid   \\/  Dwarka Colony   Mkt       Kitchen  Balcony')
+ 3 APPPATH\Controllers\CityController.php(19): humanize('Bluo Studio  Sajid   \\/  Dwarka Colony   Mkt       Kitchen  Balcony', 'C:\\')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\CityController->CityApartment('kashmir', 'Bluo Studio  Sajid   \\/  Dwarka Colony   Mkt       Kitchen  Balcony')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CityController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 17:08:25 --> preg_replace(): Unknown modifier ']'
+in SYSTEMPATH\Helpers\inflector_helper.php on line 202.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_replace(): Unknown modifier \']\'', 'SYSTEMPATH\\Helpers\\inflector_helper.php', 202)
+ 2 SYSTEMPATH\Helpers\inflector_helper.php(202): preg_replace('/[/]+/', ' ', 'Bluo Studio  Sajid   \\/  Dwarka Colony   Mkt       Kitchen  Balcony')
+ 3 APPPATH\Controllers\CityController.php(19): humanize('Bluo Studio  Sajid   \\/  Dwarka Colony   Mkt       Kitchen  Balcony', 'C:\\')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\CityController->CityApartment('kashmir', 'Bluo Studio  Sajid   \\/  Dwarka Colony   Mkt       Kitchen  Balcony')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CityController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 17:08:26 --> preg_replace(): Unknown modifier ']'
+in SYSTEMPATH\Helpers\inflector_helper.php on line 202.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_replace(): Unknown modifier \']\'', 'SYSTEMPATH\\Helpers\\inflector_helper.php', 202)
+ 2 SYSTEMPATH\Helpers\inflector_helper.php(202): preg_replace('/[/]+/', ' ', 'Bluo Studio  Sajid   \\/  Dwarka Colony   Mkt       Kitchen  Balcony')
+ 3 APPPATH\Controllers\CityController.php(19): humanize('Bluo Studio  Sajid   \\/  Dwarka Colony   Mkt       Kitchen  Balcony', 'C:\\')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\CityController->CityApartment('kashmir', 'Bluo Studio  Sajid   \\/  Dwarka Colony   Mkt       Kitchen  Balcony')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CityController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 17:08:39 --> preg_replace(): Unknown modifier '''
+in SYSTEMPATH\Helpers\inflector_helper.php on line 202.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_replace(): Unknown modifier \'\'\'', 'SYSTEMPATH\\Helpers\\inflector_helper.php', 202)
+ 2 SYSTEMPATH\Helpers\inflector_helper.php(202): preg_replace('/[\'/\']+/', ' ', 'Bluo Studio  Sajid   \\/  Dwarka Colony   Mkt       Kitchen  Balcony')
+ 3 APPPATH\Controllers\CityController.php(19): humanize('Bluo Studio  Sajid   \\/  Dwarka Colony   Mkt       Kitchen  Balcony', '\'/\'')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\CityController->CityApartment('kashmir', 'Bluo Studio  Sajid   \\/  Dwarka Colony   Mkt       Kitchen  Balcony')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CityController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 17:08:40 --> preg_replace(): Unknown modifier '''
+in SYSTEMPATH\Helpers\inflector_helper.php on line 202.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_replace(): Unknown modifier \'\'\'', 'SYSTEMPATH\\Helpers\\inflector_helper.php', 202)
+ 2 SYSTEMPATH\Helpers\inflector_helper.php(202): preg_replace('/[\'/\']+/', ' ', 'Bluo Studio  Sajid   \\/  Dwarka Colony   Mkt       Kitchen  Balcony')
+ 3 APPPATH\Controllers\CityController.php(19): humanize('Bluo Studio  Sajid   \\/  Dwarka Colony   Mkt       Kitchen  Balcony', '\'/\'')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\CityController->CityApartment('kashmir', 'Bluo Studio  Sajid   \\/  Dwarka Colony   Mkt       Kitchen  Balcony')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CityController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 17:08:44 --> preg_replace(): Unknown modifier ']'
+in SYSTEMPATH\Helpers\inflector_helper.php on line 202.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_replace(): Unknown modifier \']\'', 'SYSTEMPATH\\Helpers\\inflector_helper.php', 202)
+ 2 SYSTEMPATH\Helpers\inflector_helper.php(202): preg_replace('/[/]+/', ' ', 'Bluo Studio  Sajid   \\/  Dwarka Colony   Mkt       Kitchen  Balcony')
+ 3 APPPATH\Controllers\CityController.php(19): humanize('Bluo Studio  Sajid   \\/  Dwarka Colony   Mkt       Kitchen  Balcony', 'C:\\')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\CityController->CityApartment('kashmir', 'Bluo Studio  Sajid   \\/  Dwarka Colony   Mkt       Kitchen  Balcony')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CityController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 17:10:12 --> preg_replace(): Unknown modifier ']'
+in SYSTEMPATH\Helpers\inflector_helper.php on line 202.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_replace(): Unknown modifier \']\'', 'SYSTEMPATH\\Helpers\\inflector_helper.php', 202)
+ 2 SYSTEMPATH\Helpers\inflector_helper.php(202): preg_replace('/[],/]+/', ' ', 'Bluo Studio  Sajid ]   Dwarka /Colony   Mkt       Kitchen  Balcony')
+ 3 APPPATH\Controllers\CityController.php(18): humanize('Bluo Studio  Sajid ]   Dwarka /Colony   Mkt       Kitchen  Balcony ', '],/')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\CityController->CityApartment('kashmir', 'Bluo Studio  Sajid ]   Dwarka /Colony   Mkt       Kitchen  Balcony ')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CityController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 17:10:13 --> preg_replace(): Unknown modifier ']'
+in SYSTEMPATH\Helpers\inflector_helper.php on line 202.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_replace(): Unknown modifier \']\'', 'SYSTEMPATH\\Helpers\\inflector_helper.php', 202)
+ 2 SYSTEMPATH\Helpers\inflector_helper.php(202): preg_replace('/[],/]+/', ' ', 'Bluo Studio  Sajid ]   Dwarka /Colony   Mkt       Kitchen  Balcony')
+ 3 APPPATH\Controllers\CityController.php(18): humanize('Bluo Studio  Sajid ]   Dwarka /Colony   Mkt       Kitchen  Balcony ', '],/')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\CityController->CityApartment('kashmir', 'Bluo Studio  Sajid ]   Dwarka /Colony   Mkt       Kitchen  Balcony ')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CityController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 17:10:13 --> preg_replace(): Unknown modifier ']'
+in SYSTEMPATH\Helpers\inflector_helper.php on line 202.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_replace(): Unknown modifier \']\'', 'SYSTEMPATH\\Helpers\\inflector_helper.php', 202)
+ 2 SYSTEMPATH\Helpers\inflector_helper.php(202): preg_replace('/[],/]+/', ' ', 'Bluo Studio  Sajid ]   Dwarka /Colony   Mkt       Kitchen  Balcony')
+ 3 APPPATH\Controllers\CityController.php(18): humanize('Bluo Studio  Sajid ]   Dwarka /Colony   Mkt       Kitchen  Balcony ', '],/')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\CityController->CityApartment('kashmir', 'Bluo Studio  Sajid ]   Dwarka /Colony   Mkt       Kitchen  Balcony ')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CityController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 17:10:26 --> preg_replace(): Unknown modifier ']'
+in SYSTEMPATH\Helpers\inflector_helper.php on line 202.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_replace(): Unknown modifier \']\'', 'SYSTEMPATH\\Helpers\\inflector_helper.php', 202)
+ 2 SYSTEMPATH\Helpers\inflector_helper.php(202): preg_replace('/[/]+/', ' ', 'Bluo Studio  Sajid     Dwarka /Colony   Mkt       Kitchen  Balcony')
+ 3 APPPATH\Controllers\CityController.php(19): humanize('Bluo Studio  Sajid     Dwarka /Colony   Mkt       Kitchen  Balcony', 'C:\\')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\CityController->CityApartment('kashmir', 'Bluo Studio  Sajid     Dwarka /Colony   Mkt       Kitchen  Balcony')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CityController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 17:12:13 --> preg_replace(): Unknown modifier ']'
+in SYSTEMPATH\Helpers\inflector_helper.php on line 202.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_replace(): Unknown modifier \']\'', 'SYSTEMPATH\\Helpers\\inflector_helper.php', 202)
+ 2 SYSTEMPATH\Helpers\inflector_helper.php(202): preg_replace('/[/]+/', ' ', 'Bluo Studio  Sajid     Dwarka /Colony   Mkt       Kitchen  Balcony')
+ 3 APPPATH\Controllers\CityController.php(19): humanize('Bluo Studio  Sajid     Dwarka /Colony   Mkt       Kitchen  Balcony', 'C:\\')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\CityController->CityApartment('kashmir', 'Bluo Studio  Sajid     Dwarka /Colony   Mkt       Kitchen  Balcony')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CityController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 17:17:39 --> Call to undefined method App\Controllers\CityController::cleanURL()
+in APPPATH\Controllers\BaseController.php on line 65.
+ 1 APPPATH\Controllers\CityController.php(17): App\Controllers\BaseController->userFriendlyUrl('Bluo Studio  Sajid   45   Dwarka Colony   Mkt       Kitchen  Balcony')
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\CityController->CityApartment('kashmir', 'Bluo Studio *&^%$#@!~`=+{sajid|}[]|><,45.? {Dwarka \\/Colony  *Mkt - % @ Kitchen, Balcony;')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CityController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 17:17:47 --> Call to undefined method App\Controllers\CityController::cleanURL()
+in APPPATH\Controllers\BaseController.php on line 65.
+ 1 APPPATH\Controllers\CityController.php(17): App\Controllers\BaseController->userFriendlyUrl('Bluo Studio  Sajid   45   Dwarka Colony   Mkt       Kitchen  Balcony')
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\CityController->CityApartment('kashmir', 'Bluo Studio *&^%$#@!~`=+{sajid|}[]|><,45.? {Dwarka \\/Colony  *Mkt - % @ Kitchen, Balcony;')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CityController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-10-13 18:03:06 --> mysqli_sql_exception: Duplicate entry 'Bluo Studio Dwarka Colony Mkt - Kitchen, Balcony' for key 'title' in C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `state_a...', 0)
+#1 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `state_a...')
+#2 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `state_a...')
+#3 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `state_a...', Array, false)
+#4 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\BaseModel.php(885): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Model.php(693): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\globalHeight\project\existay\app\Controllers\Admin\StateApartmentController.php(183): CodeIgniter\Model->update('14', Array)
+#8 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Admin\StateApartmentController->updateApartment()
+#9 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\StateApartmentController))
+#10 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\globalHeight\project\existay\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-10-13 18:34:11 --> mysqli_sql_exception: Duplicate entry 'Bluo Studio Dwarka Colony Mkt - Kitchen, Balcony' for key 'title' in C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `state_a...', 0)
+#1 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `state_a...')
+#2 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `state_a...')
+#3 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `state_a...', Array, false)
+#4 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\BaseModel.php(885): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Model.php(693): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\globalHeight\project\existay\app\Controllers\Admin\StateApartmentController.php(182): CodeIgniter\Model->update('14', Array)
+#8 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Admin\StateApartmentController->updateApartment()
+#9 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\StateApartmentController))
+#10 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\globalHeight\project\existay\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-10-13 18:36:43 --> mysqli_sql_exception: Duplicate entry 'Bluo Studio Dwarka Colony Mkt - Kitchen, Balcony' for key 'title' in C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `state_a...', 0)
+#1 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `state_a...')
+#2 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `state_a...')
+#3 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `state_a...', Array, false)
+#4 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\BaseModel.php(885): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Model.php(693): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\globalHeight\project\existay\app\Controllers\Admin\StateApartmentController.php(185): CodeIgniter\Model->update('14', Array)
+#8 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Admin\StateApartmentController->updateApartment()
+#9 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\StateApartmentController))
+#10 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\globalHeight\project\existay\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-10-13 18:41:01 --> Trait "App\Models\ExtraModelMethods" not found
+in APPPATH\Models\StateApartmentModel.php on line 7.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2022-10-13 18:48:41 --> mysqli_sql_exception: Duplicate entry 'kashmir' for key 'state' in C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `st...', 0)
+#1 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\BaseModel.php(748): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\globalHeight\project\existay\app\Controllers\Admin\StateController.php(63): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Admin\StateController->addPost()
+#10 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\StateController))
+#11 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\globalHeight\project\existay\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2022-10-13 18:52:23 --> mysqli_sql_exception: Duplicate entry 'Bluo Studio Defence Colony Mkt - Kitchen, Balcony' for key 'title' in C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `state_a...', 0)
+#1 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `state_a...')
+#2 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `state_a...')
+#3 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `state_a...', Array, false)
+#4 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\BaseModel.php(885): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Model.php(693): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\globalHeight\project\existay\app\Controllers\Admin\StateApartmentController.php(183): CodeIgniter\Model->update('11', Array)
+#8 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Admin\StateApartmentController->updateApartment()
+#9 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\StateApartmentController))
+#10 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\globalHeight\project\existay\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-10-13 19:24:23 --> Undefined array key "url_title"
+in APPPATH\Views\state.php on line 100.
+ 1 APPPATH\Views\state.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "url_title"', 'APPPATH\\Views\\state.php', 100)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\state.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('state', [], true)
+ 5 APPPATH\Controllers\HomeController.php(43): view('state', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\HomeController->StateApartment('Kashmir')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 19:24:50 --> Undefined array key "url_title"
+in APPPATH\Views\state.php on line 100.
+ 1 APPPATH\Views\state.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "url_title"', 'APPPATH\\Views\\state.php', 100)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\state.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('state', [], true)
+ 5 APPPATH\Controllers\HomeController.php(43): view('state', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\HomeController->StateApartment('Kashmir')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 19:28:26 --> Undefined array key "url_title"
+in APPPATH\Views\state.php on line 100.
+ 1 APPPATH\Views\state.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "url_title"', 'APPPATH\\Views\\state.php', 100)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\state.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('state', [], true)
+ 5 APPPATH\Controllers\HomeController.php(44): view('state', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\HomeController->StateApartment('Kashmir')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-10-13 19:30:29 --> mysqli_sql_exception: Unknown column 'state_area' in 'where clause' in C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\globalHeight\project\existay\app\Controllers\CityController.php(29): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\CityController->CityApartment('Kashmir', 'url_title')
+#8 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CityController))
+#9 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\globalHeight\project\existay\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-10-13 19:30:29 --> Unknown column 'state_area' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `faqs`
+WHERE `state_area` = \'url_title\'
+AND `state` = \'kashmir\'
+AND `privacy` = \'public\'
+ORDER BY `id` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `faqs`
+WHERE `state_area` = \'url_title\'
+AND `state` = \'kashmir\'
+AND `privacy` = \'public\'
+ORDER BY `id` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `faqs`
+WHERE `state_area` = \'url_title\'
+AND `state` = \'kashmir\'
+AND `privacy` = \'public\'
+ORDER BY `id` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `faqs`
+WHERE `state_area` = :state_area:
+AND `state` = :state:
+AND `privacy` = :privacy:
+ORDER BY `id` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\CityController.php(29): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\CityController->CityApartment('Kashmir', 'url_title')
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CityController))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-10-13 19:31:30 --> mysqli_sql_exception: Unknown column 'state_area' in 'where clause' in C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\globalHeight\project\existay\app\Controllers\CityController.php(29): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\CityController->CityApartment('Kashmir', 'url_title')
+#8 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CityController))
+#9 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\globalHeight\project\existay\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-10-13 19:31:30 --> Unknown column 'state_area' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `faqs`
+WHERE `state_area` = \'url_title\'
+AND `state` = \'kashmir\'
+AND `privacy` = \'public\'
+ORDER BY `id` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `faqs`
+WHERE `state_area` = \'url_title\'
+AND `state` = \'kashmir\'
+AND `privacy` = \'public\'
+ORDER BY `id` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `faqs`
+WHERE `state_area` = \'url_title\'
+AND `state` = \'kashmir\'
+AND `privacy` = \'public\'
+ORDER BY `id` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `faqs`
+WHERE `state_area` = :state_area:
+AND `state` = :state:
+AND `privacy` = :privacy:
+ORDER BY `id` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\CityController.php(29): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\CityController->CityApartment('Kashmir', 'url_title')
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CityController))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-10-13 19:34:54 --> mysqli_sql_exception: Unknown column 'state_area' in 'where clause' in C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\globalHeight\project\existay\app\Controllers\CityController.php(29): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\CityController->CityApartment('Kashmir', 'Bluo-Studio-Dwa...')
+#8 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CityController))
+#9 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\globalHeight\project\existay\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-10-13 19:34:54 --> Unknown column 'state_area' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `faqs`
+WHERE `state_area` = \'Bluo-Studio-Dwarka-Colony\'
+AND `state` = \'kashmir\'
+AND `privacy` = \'public\'
+ORDER BY `id` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `faqs`
+WHERE `state_area` = \'Bluo-Studio-Dwarka-Colony\'
+AND `state` = \'kashmir\'
+AND `privacy` = \'public\'
+ORDER BY `id` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `faqs`
+WHERE `state_area` = \'Bluo-Studio-Dwarka-Colony\'
+AND `state` = \'kashmir\'
+AND `privacy` = \'public\'
+ORDER BY `id` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `faqs`
+WHERE `state_area` = :state_area:
+AND `state` = :state:
+AND `privacy` = :privacy:
+ORDER BY `id` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\CityController.php(29): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\CityController->CityApartment('Kashmir', 'Bluo-Studio-Dwarka-Colony')
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CityController))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 19:38:25 --> Trying to access array offset on value of type null
+in APPPATH\Views\city.php on line 72.
+ 1 APPPATH\Views\city.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\city.php', 72)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\city.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('city', [], true)
+ 5 APPPATH\Controllers\CityController.php(42): view('city', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\CityController->CityApartment('Kashmir', 'Bluo-Studio-Dwarka-Colony')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CityController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 19:39:32 --> Trying to access array offset on value of type null
+in APPPATH\Views\city.php on line 72.
+ 1 APPPATH\Views\city.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\city.php', 72)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\city.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('city', [], true)
+ 5 APPPATH\Controllers\CityController.php(42): view('city', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\CityController->CityApartment('Kashmir', 'images', 'background', '4.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CityController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 19:40:06 --> Trying to access array offset on value of type null
+in APPPATH\Views\city.php on line 72.
+ 1 APPPATH\Views\city.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\city.php', 72)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\city.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('city', [], true)
+ 5 APPPATH\Controllers\CityController.php(42): view('city', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\CityController->CityApartment('Kashmir', 'images', 'background', '4.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CityController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 20:24:28 --> Undefined array key "image_short_description"
+in APPPATH\Views\admin\home\add.php on line 305.
+ 1 APPPATH\Views\admin\home\add.php(305): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image_short_description"', 'APPPATH\\Views\\admin\\home\\add.php', 305)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\home\\add.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('admin/home/add', [], true)
+ 5 APPPATH\Controllers\Admin\HomeController.php(21): view('admin/home/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\HomeController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 20:26:36 --> Undefined array key "image_load"
+in APPPATH\Views\admin\home\add.php on line 291.
+ 1 APPPATH\Views\admin\home\add.php(291): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image_load"', 'APPPATH\\Views\\admin\\home\\add.php', 291)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\home\\add.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('admin/home/add', [], true)
+ 5 APPPATH\Controllers\Admin\HomeController.php(21): view('admin/home/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\HomeController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 20:27:43 --> Undefined array key "image_load"
+in APPPATH\Controllers\Admin\HomeController.php on line 16.
+ 1 APPPATH\Controllers\Admin\HomeController.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image_load"', 'APPPATH\\Controllers\\Admin\\HomeController.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\HomeController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\HomeController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 20:27:48 --> Undefined array key "id"
+in APPPATH\Controllers\Admin\HomeController.php on line 16.
+ 1 APPPATH\Controllers\Admin\HomeController.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Admin\\HomeController.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\HomeController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\HomeController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 20:27:49 --> Undefined array key "id"
+in APPPATH\Controllers\Admin\HomeController.php on line 16.
+ 1 APPPATH\Controllers\Admin\HomeController.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Admin\\HomeController.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\HomeController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\HomeController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 20:30:42 --> Undefined array key "image_load"
+in APPPATH\Views\admin\home\add.php on line 314.
+ 1 APPPATH\Views\admin\home\add.php(314): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image_load"', 'APPPATH\\Views\\admin\\home\\add.php', 314)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\home\\add.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('admin/home/add', [], true)
+ 5 APPPATH\Controllers\Admin\HomeController.php(21): view('admin/home/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\HomeController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 20:50:47 --> Class "App\Models\HomeModel" not found
+in APPPATH\Controllers\Admin\HomeController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\HomeController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\HomeController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 20:52:07 --> Class "App\Models\HomeModel" not found
+in APPPATH\Controllers\Admin\HomeController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\HomeController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\HomeController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 20:53:02 --> Undefined array key "image_load"
+in APPPATH\Views\admin\home\add.php on line 291.
+ 1 APPPATH\Views\admin\home\add.php(291): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image_load"', 'APPPATH\\Views\\admin\\home\\add.php', 291)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\home\\add.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('admin/home/add', [], true)
+ 5 APPPATH\Controllers\Admin\HomeController.php(21): view('admin/home/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\HomeController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 20:54:16 --> Undefined array key "image"
+in APPPATH\Views\admin\home\add.php on line 291.
+ 1 APPPATH\Views\admin\home\add.php(291): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image"', 'APPPATH\\Views\\admin\\home\\add.php', 291)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\home\\add.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('admin/home/add', [], true)
+ 5 APPPATH\Controllers\Admin\HomeController.php(22): view('admin/home/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\HomeController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 20:59:28 --> syntax error, unexpected variable "$homeModel"
+in APPPATH\Controllers\Admin\HomeController.php on line 69.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Admin\\HomeController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\HomeController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\HomeController')
+ 4 SYSTEMPATH\CodeIgniter.php(852): class_exists('\\App\\Controllers\\Admin\\HomeController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 21:13:46 --> Undefined array key "home_load"
+in APPPATH\Views\home.php on line 57.
+ 1 APPPATH\Views\home.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "home_load"', 'APPPATH\\Views\\home.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\HomeController.php(28): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\HomeController->home()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 21:36:59 --> Undefined array key "title"
+in APPPATH\Views\admin\city_slider\index.php on line 38.
+ 1 APPPATH\Views\admin\city_slider\index.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'APPPATH\\Views\\admin\\city_slider\\index.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\city_slider\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('admin/city_slider/index', [], true)
+ 5 APPPATH\Controllers\Admin\CitySliderController.php(29): view('admin/city_slider/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\CitySliderController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\CitySliderController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 21:39:07 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\city_slider\index.php on line 38.
+ 1 APPPATH\Views\admin\city_slider\index.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\city_slider\\index.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\city_slider\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('admin/city_slider/index', [], true)
+ 5 APPPATH\Controllers\Admin\CitySliderController.php(32): view('admin/city_slider/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\CitySliderController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\CitySliderController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 21:39:22 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\city_slider\index.php on line 38.
+ 1 APPPATH\Views\admin\city_slider\index.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\city_slider\\index.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\city_slider\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('admin/city_slider/index', [], true)
+ 5 APPPATH\Controllers\Admin\CitySliderController.php(32): view('admin/city_slider/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\CitySliderController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\CitySliderController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 22:03:21 --> The route for "admin/slider/filter" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 544.
+ 1 SYSTEMPATH\Helpers\url_helper.php(544): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('admin/slider/filter')
+ 2 APPPATH\Views\admin\city_slider\index.php(34): url_to('admin/slider/filter')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\city_slider\\index.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('admin/city_slider/index', [], true)
+ 6 APPPATH\Controllers\Admin\CitySliderController.php(33): view('admin/city_slider/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\CitySliderController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\CitySliderController))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 22:30:26 --> Undefined variable $title
+in APPPATH\Controllers\Admin\CitySliderController.php on line 23.
+ 1 APPPATH\Controllers\Admin\CitySliderController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Controllers\\Admin\\CitySliderController.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\CitySliderController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\CitySliderController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 22:44:28 --> Undefined variable $apartmentTitle
+in APPPATH\Views\admin\faqs\index.php on line 38.
+ 1 APPPATH\Views\admin\faqs\index.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $apartmentTitle', 'APPPATH\\Views\\admin\\faqs\\index.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\faqs\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('admin/faqs/index', [], true)
+ 5 APPPATH\Controllers\Admin\FaqsController.php(29): view('admin/faqs/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\FaqsController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\FaqsController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 22:46:49 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\faqs\index.php on line 39.
+ 1 APPPATH\Views\admin\faqs\index.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\faqs\\index.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\faqs\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('admin/faqs/index', [], true)
+ 5 APPPATH\Controllers\Admin\FaqsController.php(36): view('admin/faqs/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\FaqsController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\FaqsController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 22:53:48 --> Undefined variable $title
+in APPPATH\Views\admin\city_slider\index.php on line 39.
+ 1 APPPATH\Views\admin\city_slider\index.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\admin\\city_slider\\index.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\city_slider\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('admin/city_slider/index', [], true)
+ 5 APPPATH\Controllers\Admin\CitySliderController.php(39): view('admin/city_slider/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\CitySliderController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\CitySliderController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 23:02:48 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\faqs\index.php on line 64.
+ 1 APPPATH\Views\admin\faqs\index.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\faqs\\index.php', 64)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\faqs\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('admin/faqs/index', [], true)
+ 5 APPPATH\Controllers\Admin\FaqsController.php(38): view('admin/faqs/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\FaqsController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\FaqsController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 23:28:04 --> Undefined variable $apartmentTitle
+in APPPATH\Views\admin\dashboard\index.php on line 9.
+ 1 APPPATH\Views\admin\dashboard\index.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $apartmentTitle', 'APPPATH\\Views\\admin\\dashboard\\index.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('admin/dashboard/index', [], true)
+ 5 APPPATH\Controllers\Admin\DashboardController.php(38): view('admin/dashboard/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 23:33:59 --> foreach() argument must be of type array|object, int given
+in APPPATH\Views\admin\dashboard\index.php on line 9.
+ 1 APPPATH\Views\admin\dashboard\index.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, int given', 'APPPATH\\Views\\admin\\dashboard\\index.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('admin/dashboard/index', [], true)
+ 5 APPPATH\Controllers\Admin\DashboardController.php(56): view('admin/dashboard/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 23:38:16 --> foreach() argument must be of type array|object, int given
+in APPPATH\Views\admin\dashboard\index.php on line 9.
+ 1 APPPATH\Views\admin\dashboard\index.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, int given', 'APPPATH\\Views\\admin\\dashboard\\index.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('admin/dashboard/index', [], true)
+ 5 APPPATH\Controllers\Admin\DashboardController.php(59): view('admin/dashboard/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 23:41:04 --> Call to undefined method App\Models\StateApartmentModel::find1All
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Admin\DashboardController.php(34): CodeIgniter\Model->__call('find1All', [])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\DashboardController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-10-13 23:41:22 --> mysqli_sql_exception: Unknown column 'apartment_title' in 'where clause' in C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\globalHeight\project\existay\app\Controllers\Admin\DashboardController.php(35): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Admin\DashboardController->index()
+#8 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+#9 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\globalHeight\project\existay\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-10-13 23:41:22 --> Unknown column 'apartment_title' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `states`
+WHERE `apartment_title` = \'Bluo Studio Dwarka Colony\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `states`
+WHERE `apartment_title` = \'Bluo Studio Dwarka Colony\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `states`
+WHERE `apartment_title` = \'Bluo Studio Dwarka Colony\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `states`
+WHERE `apartment_title` = :apartment_title:', [...], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\DashboardController.php(35): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\DashboardController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-10-13 23:42:59 --> mysqli_sql_exception: Unknown column 'apartment_title' in 'where clause' in C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\globalHeight\project\existay\app\Controllers\Admin\DashboardController.php(35): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\Admin\DashboardController->index()
+#8 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+#9 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\globalHeight\project\existay\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\globalHeight\project\existay\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-10-13 23:42:59 --> Unknown column 'apartment_title' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `states`
+WHERE `apartment_title` = \'Bluo Studio Defence Colony Mkt - Kitchen, Balcony\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `states`
+WHERE `apartment_title` = \'Bluo Studio Defence Colony Mkt - Kitchen, Balcony\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `states`
+WHERE `apartment_title` = \'Bluo Studio Defence Colony Mkt - Kitchen, Balcony\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `states`
+WHERE `apartment_title` = :apartment_title:', [...], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\DashboardController.php(35): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\DashboardController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

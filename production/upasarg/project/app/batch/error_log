@@ -1,0 +1,5 @@
+[31-Aug-2021 15:29:22 UTC] PHP Notice:  Trying to get property 'nodeValue' of non-object in /home/xklsvme/public_html/app/batch/alearningaday_hoover.php on line 85
+[01-Sep-2021 11:09:32 UTC] PHP Warning:  file_get_contents(https://themusingsofthebigredcar.com/): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/xklsvme/public_html/app/batch/thebigredcar_hoover.php on line 54
+[01-Sep-2021 11:11:36 UTC] PHP Warning:  file_get_contents(https://themusingsofthebigredcar.com/): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/xklsvme/public_html/app/batch/thebigredcar_hoover.php on line 55

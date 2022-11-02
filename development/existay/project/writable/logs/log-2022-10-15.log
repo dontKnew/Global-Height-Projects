@@ -1,0 +1,98 @@
+CRITICAL - 2022-10-15 10:44:09 --> The route for "admin/faqs?apartment_title=Bluo Studio Defence Colony Mkt - Kitchen, Balcony" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('admin/faqs?apartment_title=Bluo Studio Defence Colony Mkt - Kitchen, Balcony')
+ 2 SYSTEMPATH\Common.php(869): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Admin\FaqsController.php(110): redirect('admin/faqs?apartment_title=Bluo Studio Defence Colony Mkt - Kitchen, Balcony')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\FaqsController->deleteFaqs('7')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\FaqsController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-15 10:50:07 --> Undefined array key 0
+in SYSTEMPATH\Router\RouteCollection.php on line 1135.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'SYSTEMPATH\\Router\\RouteCollection.php', 1135)
+ 2 SYSTEMPATH\Router\RouteCollection.php(1002): CodeIgniter\Router\RouteCollection->fillRouteParams('admin/faqs/(.*)', [])
+ 3 SYSTEMPATH\Common.php(920): CodeIgniter\Router\RouteCollection->reverseRoute('admin/faqs')
+ 4 SYSTEMPATH\Helpers\url_helper.php(537): route_to('admin/faqs')
+ 5 APPPATH\Views\admin\faqs\index.php(12): url_to('admin/faqs')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\faqs\\index.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('admin/faqs/index', [], true)
+ 9 APPPATH\Controllers\Admin\FaqsController.php(38): view('admin/faqs/index', [...])
+10 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\FaqsController->index('dslk')
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\FaqsController))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-15 10:58:42 --> The route for "http://localhost:8080/admin/faqs/?apartment_title=Bluo+Studio+Defence+Colony+Mkt+-+Kitchen%2C+Balcony" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost:8080/admin/faqs/?apartment_title=Bluo+Studio+Defence+Colony+Mkt+-+Kitchen%2C+Balcony')
+ 2 SYSTEMPATH\Common.php(869): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Admin\FaqsController.php(110): redirect('http://localhost:8080/admin/faqs/?apartment_title=Bluo+Studio+Defence+Colony+Mkt+-+Kitchen%2C+Balcony')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\FaqsController->deleteFaqs('4')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\FaqsController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-15 10:59:52 --> The route for "http://localhost:8080/admin/faqs/?apartment_title=Bluo+Studio+Defence+Colony+Mkt+-+Kitchen%2C+Balcony" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost:8080/admin/faqs/?apartment_title=Bluo+Studio+Defence+Colony+Mkt+-+Kitchen%2C+Balcony')
+ 2 SYSTEMPATH\Common.php(869): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Admin\FaqsController.php(110): redirect('http://localhost:8080/admin/faqs/?apartment_title=Bluo+Studio+Defence+Colony+Mkt+-+Kitchen%2C+Balcony')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\FaqsController->deleteFaqs('3')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\FaqsController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-15 11:00:14 --> The route for "http://localhost:8080/admin/faqs/?apartment_title=Bluo+Studio+Defence+Colony+Mkt+-+Kitchen%2C+Balcony" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost:8080/admin/faqs/?apartment_title=Bluo+Studio+Defence+Colony+Mkt+-+Kitchen%2C+Balcony')
+ 2 SYSTEMPATH\Common.php(869): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Admin\FaqsController.php(110): redirect('http://localhost:8080/admin/faqs/?apartment_title=Bluo+Studio+Defence+Colony+Mkt+-+Kitchen%2C+Balcony')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\FaqsController->deleteFaqs('3')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\FaqsController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-15 11:00:32 --> The route for "http://localhost:8080/admin/faqs?apartment_title=Bluo+Studio+Defence+Colony+Mkt+-+Kitchen%2C+Balcony" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost:8080/admin/faqs?apartment_title=Bluo+Studio+Defence+Colony+Mkt+-+Kitchen%2C+Balcony')
+ 2 SYSTEMPATH\Common.php(869): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Admin\FaqsController.php(110): redirect('http://localhost:8080/admin/faqs?apartment_title=Bluo+Studio+Defence+Colony+Mkt+-+Kitchen%2C+Balcony')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\FaqsController->deleteFaqs('3')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\FaqsController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-15 11:38:33 --> syntax error, unexpected identifier "s", expecting ";" or "{"
+in APPPATH\Controllers\Admin\FaqsController.php on line 105.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Admin\\FaqsController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\FaqsController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\FaqsController')
+ 4 SYSTEMPATH\CodeIgniter.php(852): class_exists('\\App\\Controllers\\Admin\\FaqsController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-15 11:39:17 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Controllers\Admin\FaqsController.php on line 103.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Admin\\FaqsController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\FaqsController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\FaqsController')
+ 4 SYSTEMPATH\CodeIgniter.php(852): class_exists('\\App\\Controllers\\Admin\\FaqsController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-15 12:24:21 --> Undefined variable $ucwords
+in APPPATH\Views\admin\testimonial\index.php on line 41.
+ 1 APPPATH\Views\admin\testimonial\index.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ucwords', 'APPPATH\\Views\\admin\\testimonial\\index.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\testimonial\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('admin/testimonial/index', [], true)
+ 5 APPPATH\Controllers\Admin\TestimonialController.php(39): view('admin/testimonial/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\TestimonialController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\TestimonialController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

@@ -1,0 +1,299 @@
+<?php
+session_start();
+require_once 'config/config.php';
+require_once BASE_PATH . '/includes/auth_validate.php';
+
+// Users class
+require_once BASE_PATH . '/lib/Users/Users.php';
+$users = new Users();
+
+// User ID for which we are performing operation
+$admin_user_id = filter_input(INPUT_GET, 'admin_user_id');
+$operation = filter_input(INPUT_GET, 'operation', FILTER_SANITIZE_STRING);
+
+$id = filter_input(INPUT_GET, 'id', FILTER_SANITIZE_STRING);
+$db = getDbInstance();
+if ($id) {
+    $db->where('id', $id);
+    $customer = $db->getOne('new_awb');
+}
+
+$data = json_decode($customer['data'], true);
+?><!DOCTYPE html>
+<!-- saved from url=(0072)http://awcc.online/portal/dockets/92334.html?label=shipper_and_consignee -->
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title><?= $data['tracking_no']; ?></title>
+    <style type="text/css">
+        body {
+        }
+
+        * {
+            white-space: nowrap;
+        }
+
+        @page {
+            size: A4;
+            margin: 5;
+        }
+
+        html, body {
+            width: 210mm;
+            font-size: 17px;
+            font-weight: 500;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        }
+
+        .docket {
+            width: 100%;
+            line-height: 1;
+            padding: 3mm 0;
+            page-break-inside: avoid;
+        }
+
+        table {
+            border: 3px solid #000;
+            width: calc(100% - 1mm);
+        }
+
+        table td:first-child {
+            width: 10em;
+        }
+
+
+        table tr td {
+            padding-bottom: 2mm;
+        }
+
+    </style>
+</head>
+<body>
+<div class="docket">
+    <table>
+        <tbody>
+        <tr>
+            <td style="font-style: italic;font-weight: bold;font-size: 23px;">Shipper</td>
+            <td style="font-weight: bold;font-size: 23px;"><span style="float: right;">1 / 2</span></td>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td style="font-weight: bold;font-size: 22px;text-decoration: underline;"><?= $data['shipper_name']; ?></td>
+        </tr>
+        <tr>
+            <td valign="top">Address</td>
+            <td>
+                <?= $data['shipper_address_line_1']; ?> <br>
+            </td>
+        </tr>
+        <tr>
+            <td>Pin Code</td>
+            <td><?= $data['shipper_zip_code']; ?></td>
+        </tr>
+        <tr>
+            <td>City</td>
+            <td><?= $data['shipper_city']; ?></td>
+        </tr>
+        <tr>
+            <td>State</td>
+            <td><?= $data['shipper_state']; ?><span style="float: right;font-weight: bold;font-size: 22px;"></span></td>
+        </tr>
+        <tr>
+            <td>Country</td>
+            <td style="font-weight: bold;font-size: 22px;"><?= $data['shipper_country']; ?>
+
+                <span style="float: right;">       
+                   <img class="barcode" style="width: 200px;margin-top:18px;" alt="<?= $data['tracking_no'] ?>"
+                        src="assets/image/barcode.jpg"/>
+                   <div style="font-size:22px; text-align:center"><?= $data['tracking_no'] ?></div>
+		 <?php
+         // 		if(isset($data['tracking_no'])){
+         // 				$barcodeText = $data['tracking_no'];
+         // 				$barcodeType='code128';
+         // 				$barcodeDisplay='horizontal';
+         // 				$barcodeSize=22;
+         // 				$printText='true';
+         // 				if($barcodeText != '') {
+         // 				// 	echo '<h4>Barcode:</h4>';
+         // 					echo '<img class="barcode" style="width: 230px;margin-top: 18px;"  alt="'.$data['tracking_no'].'" src="https://rapidexworldwide.com/admin/includes/barcode.php?text='.$barcodeText.'&codetype='.$barcodeType.'&orientation='.$barcodeDisplay.'&size='.$barcodeSize.'&print='.$printText.'"/>';
+         // 				}
+         // 			}
+         ?>
+		</span>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<div class="docket">
+    <table>
+        <tbody>
+        <tr>
+            <td style="font-style: italic;font-weight: bold;font-size: 23px;">Consignee</td>
+            <td style="font-weight: bold;font-size: 23px;"><span style="float: right;">1 / 2</span></td>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td style="font-weight: bold;font-size: 22px;text-decoration: underline;"><?= $data['consignee_name']; ?></td>
+        </tr>
+        <tr>
+            <td valign="top">Address</td>
+            <td>
+                <?= $data['consignee_address_line_1']; ?> <br>
+            </td>
+        </tr>
+        <tr>
+            <td>Pin Code</td>
+            <td><?= $data['consignee_zip_code']; ?></td>
+        </tr>
+        <tr>
+            <td>City</td>
+            <td><?= $data['consignee_city']; ?></td>
+        </tr>
+        <tr>
+            <td>State</td>
+            <td><?= $data['consignee_state']; ?></td>
+        </tr>
+        <tr>
+            <td>Country</td>
+            <td style="font-weight: bold;font-size: 22px;"><?= $data['consignee_country']; ?><span
+                        style="float: right;font-weight: bold;font-size: 22px;"></span></td>
+        </tr>
+        <tr>
+            <td>Phone No.</td>
+            <td>
+                <?= $data['consignee_contact_no']; ?>
+                <span style="float: right;">       
+		 <?php
+         if (isset($data['tracking_no'])) {
+             $barcodeText = $data['tracking_no'];
+             $barcodeType = 'code128';
+             $barcodeDisplay = 'horizontal';
+             $barcodeSize = 22;
+             $printText = 'true';
+             if ($barcodeText != '') {
+                 // 	echo '<h4>Barcode:</h4>';
+                 echo '<img class="barcode" style="width: 230px;margin-top: 18px;"  alt="' . $data['tracking_no'] . '" src="https://rapidexworldwide.com/admin/includes/barcode.php?text=' . $barcodeText . '&codetype=' . $barcodeType . '&orientation=' . $barcodeDisplay . '&size=' . $barcodeSize . '&print=' . $printText . '"/>';
+             }
+         }
+         ?></span>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<div style="border: 1px dotted #000;margin: 5px 0 5px 0;"></div>
+<div class="docket">
+    <table>
+        <tbody>
+        <tr>
+            <td style="font-style: italic;font-weight: bold;font-size: 23px;">Shipper</td>
+            <td style="font-weight: bold;font-size: 23px;"><span style="float: right;">2 / 2</span></td>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td style="font-weight: bold;font-size: 22px;text-decoration: underline;"><?= $data['shipper_name']; ?></td>
+        </tr>
+        <tr>
+            <td valign="top">Address</td>
+            <td>
+                <?= $data['shipper_address_line_1']; ?> <br>
+            </td>
+        </tr>
+        <tr>
+            <td>Pin Code</td>
+            <td><?= $data['shipper_zip_code']; ?></td>
+        </tr>
+        <tr>
+            <td>City</td>
+            <td><?= $data['shipper_city']; ?></td>
+        </tr>
+        <tr>
+            <td>State</td>
+            <td><?= $data['shipper_state']; ?><span style="float: right;font-weight: bold;font-size: 22px;"></span></td>
+        </tr>
+        <tr>
+            <td>Country</td>
+            <td style="font-weight: bold;font-size: 22px;"><?= $data['shipper_country']; ?>
+                <span style="float: right;">       
+		 <?php
+         if (isset($data['tracking_no'])) {
+             $barcodeText = $data['tracking_no'];
+             $barcodeType = 'code128';
+             $barcodeDisplay = 'horizontal';
+             $barcodeSize = 22;
+             $printText = 'true';
+             if ($barcodeText != '') {
+                 // 	echo '<h4>Barcode:</h4>';
+                 echo '<img class="barcode" style="width: 230px;margin-top: 18px;"  alt="' . $data['tracking_no'] . '" src="https://rapidexworldwide.com/admin/includes/barcode.php?text=' . $barcodeText . '&codetype=' . $barcodeType . '&orientation=' . $barcodeDisplay . '&size=' . $barcodeSize . '&print=' . $printText . '"/>';
+             }
+         }
+         ?></span>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<div class="docket">
+    <table>
+        <tbody>
+        <tr>
+            <td style="font-style: italic;font-weight: bold;font-size: 23px;">Consignee</td>
+            <td style="font-weight: bold;font-size: 23px;"><span style="float: right;">2 / 2</span></td>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td style="font-weight: bold;font-size: 22px;text-decoration: underline;"><?= $data['consignee_name']; ?></td>
+        </tr>
+        <tr>
+            <td valign="top">Address</td>
+            <td>
+                <?= $data['consignee_address_line_1']; ?>
+            </td>
+        </tr>
+        <tr>
+            <td>Pin Code</td>
+            <td><?= $data['consignee_zip_code']; ?></td>
+        </tr>
+        <tr>
+            <td>City</td>
+            <td><?= $data['consignee_city']; ?></td>
+        </tr>
+        <tr>
+            <td>State</td>
+            <td><?= $data['consignee_state']; ?></td>
+        </tr>
+        <tr>
+            <td>Country</td>
+            <td style="font-weight: bold;font-size: 22px;"><?= $data['consignee_country']; ?><span
+                        style="float: right;font-weight: bold;font-size: 22px;">150717052201</span></td>
+        </tr>
+        <tr>
+            <td>Phone No.</td>
+            <td>
+                <?= $data['consignee_contact_no']; ?>
+                <span style="float: right;">       
+		 <?php
+         if (isset($data['tracking_no'])) {
+             $barcodeText = $data['tracking_no'];
+             $barcodeType = 'code128';
+             $barcodeDisplay = 'horizontal';
+             $barcodeSize = 22;
+             $printText = 'true';
+             if ($barcodeText != '') {
+                 // 	echo '<h4>Barcode:</h4>';
+                 echo '<img class="barcode" style="width: 230px;margin-top: 18px;"  alt="' . $data['tracking_no'] . '" src="https://rapidexworldwide.com/admin/includes/barcode.php?text=' . $barcodeText . '&codetype=' . $barcodeType . '&orientation=' . $barcodeDisplay . '&size=' . $barcodeSize . '&print=' . $printText . '"/>';
+             }
+         }
+         ?></span>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+
+</body>
+</html>

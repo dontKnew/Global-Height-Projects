@@ -1,0 +1,1 @@
+__ci_last_regenerate|i:1665505818;_ci_previous_url|s:42:"http://localhost:8888/admin/states/edit/14";id|s:1:"1";name|s:5:"Admin";email|s:17:"admin@existay.com";logged_in|b:1;err|s:117:"Error : unlink(assets/admin/img/state/original/mumbai_1665309350_3c08c8b0023c345209a0.jpg): No such file or directory";__ci_vars|a:1:{s:3:"err";s:3:"old";}
