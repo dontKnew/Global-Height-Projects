@@ -1,0 +1,1 @@
+$networkArr = array( 'dhl' ,'fedex' , 'aramex' , 'ups' , 'tnt' , 'yodel' , 'dpd-uk' , 'dpd-germany' , 'gls' , 'city-link' , 'dpex' ,'skynet' ,'blue-dart' ,'self');
