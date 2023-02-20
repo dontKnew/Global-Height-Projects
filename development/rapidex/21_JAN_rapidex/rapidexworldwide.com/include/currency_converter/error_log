@@ -1,0 +1,10 @@
+[03-Dec-2022 01:34:41 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.3.33. in /home4/elect7wk/rapidexworldwide.com/include/currency_converter/vendor/composer/platform_check.php on line 24
+[05-Dec-2022 01:10:42 America/Chicago] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `GET https://www.google.com/search?q=1usd+to+inr` resulted in a `429 Too Many Requests` response:
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head><meta http-equiv="content-type" content="te (truncated...)
+ in /home4/elect7wk/rapidexworldwide.com/include/currency_converter/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home4/elect7wk/rapidexworldwide.com/include/currency_converter/vendor/guzzlehttp/guzzle/src/Middleware.php(69): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response), NULL, Array, NULL)
+#1 /home4/elect7wk/rapidexworldwide.com/include/currency_converter/vendor/guzzlehttp/promises/src/Promise.php(204): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home4/elect7wk/rapidexworldwide.com/include/currency_converter/vendor/guzzlehttp/promises/src/Promise.php(153): GuzzleHttp\Promise\Promise in /home4/elect7wk/rapidexworldwide.com/include/currency_converter/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113

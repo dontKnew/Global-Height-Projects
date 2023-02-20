@@ -1,0 +1,153 @@
+[24-Dec-2022 12:27:24 America/Chicago] PHP Warning:  Illegal string offset 'access_token' in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php on line 15
+[24-Dec-2022 12:27:25 America/Chicago] PHP Fatal error:  Uncaught InvalidArgumentException: Invalid token format in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/vendor/google/apiclient/src/Client.php:523
+Stack trace:
+#0 /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php(19): Google\Client->setAccessToken(Array)
+#1 {main}
+  thrown in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/vendor/google/apiclient/src/Client.php on line 523
+[24-Dec-2022 12:27:48 America/Chicago] PHP Warning:  Illegal string offset 'access_token' in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php on line 15
+[24-Dec-2022 12:27:48 America/Chicago] PHP Fatal error:  Uncaught InvalidArgumentException: Invalid token format in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/vendor/google/apiclient/src/Client.php:523
+Stack trace:
+#0 /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php(19): Google\Client->setAccessToken(Array)
+#1 {main}
+  thrown in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/vendor/google/apiclient/src/Client.php on line 523
+[24-Dec-2022 12:27:50 America/Chicago] PHP Warning:  Illegal string offset 'access_token' in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php on line 15
+[24-Dec-2022 12:27:50 America/Chicago] PHP Warning:  Illegal string offset 'access_token' in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php on line 15
+[24-Dec-2022 12:27:50 America/Chicago] PHP Fatal error:  Uncaught InvalidArgumentException: Invalid token format in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/vendor/google/apiclient/src/Client.php:523
+Stack trace:
+#0 /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php(19): Google\Client->setAccessToken(Array)
+#1 {main}
+  thrown in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/vendor/google/apiclient/src/Client.php on line 523
+[24-Dec-2022 12:27:50 America/Chicago] PHP Fatal error:  Uncaught InvalidArgumentException: Invalid token format in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/vendor/google/apiclient/src/Client.php:523
+Stack trace:
+#0 /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php(19): Google\Client->setAccessToken(Array)
+#1 {main}
+  thrown in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/vendor/google/apiclient/src/Client.php on line 523
+[24-Dec-2022 12:27:50 America/Chicago] PHP Warning:  Illegal string offset 'access_token' in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php on line 15
+[24-Dec-2022 12:27:50 America/Chicago] PHP Fatal error:  Uncaught InvalidArgumentException: Invalid token format in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/vendor/google/apiclient/src/Client.php:523
+Stack trace:
+#0 /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php(19): Google\Client->setAccessToken(Array)
+#1 {main}
+  thrown in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/vendor/google/apiclient/src/Client.php on line 523
+[24-Dec-2022 12:27:50 America/Chicago] PHP Warning:  Illegal string offset 'access_token' in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php on line 15
+[24-Dec-2022 12:27:50 America/Chicago] PHP Fatal error:  Uncaught InvalidArgumentException: Invalid token format in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/vendor/google/apiclient/src/Client.php:523
+Stack trace:
+#0 /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php(19): Google\Client->setAccessToken(Array)
+#1 {main}
+  thrown in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/vendor/google/apiclient/src/Client.php on line 523
+[24-Dec-2022 12:28:05 America/Chicago] PHP Warning:  Illegal string offset 'access_token' in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php on line 15
+[24-Dec-2022 12:28:14 America/Chicago] PHP Warning:  Illegal string offset 'access_token' in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php on line 15
+[24-Dec-2022 12:28:15 America/Chicago] PHP Warning:  Illegal string offset 'access_token' in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php on line 15
+[24-Dec-2022 12:28:15 America/Chicago] PHP Warning:  Illegal string offset 'access_token' in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php on line 15
+[24-Dec-2022 12:28:23 America/Chicago] PHP Warning:  Illegal string offset 'access_token' in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php on line 15
+[24-Dec-2022 12:28:23 America/Chicago] PHP Warning:  Illegal string offset 'access_token' in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php on line 15
+[24-Dec-2022 12:28:24 America/Chicago] PHP Warning:  Illegal string offset 'access_token' in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php on line 15
+[24-Dec-2022 12:28:24 America/Chicago] PHP Warning:  Illegal string offset 'access_token' in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php on line 15
+[24-Dec-2022 12:28:25 America/Chicago] PHP Warning:  Illegal string offset 'access_token' in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php on line 15
+[24-Dec-2022 12:28:25 America/Chicago] PHP Warning:  Illegal string offset 'access_token' in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php on line 15
+[24-Dec-2022 12:28:25 America/Chicago] PHP Warning:  Illegal string offset 'access_token' in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php on line 15
+[24-Dec-2022 12:28:38 America/Chicago] PHP Warning:  Illegal string offset 'access_token' in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php on line 15
+[24-Dec-2022 12:28:38 America/Chicago] PHP Warning:  Illegal string offset 'access_token' in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php on line 15
+[24-Dec-2022 12:31:25 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'Google_Srvice_Webmasters' not found in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/index.php:9
+Stack trace:
+#0 {main}
+  thrown in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/index.php on line 9
+[24-Dec-2022 12:32:36 America/Chicago] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/vendor/psr/log/src/LoggerInterface.php on line 30
+[24-Dec-2022 12:33:02 America/Chicago] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/vendor/psr/log/src/LoggerInterface.php on line 30
+[24-Dec-2022 12:33:03 America/Chicago] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/vendor/psr/log/src/LoggerInterface.php on line 30
+[24-Dec-2022 12:33:32 America/Chicago] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/vendor/psr/log/src/LoggerInterface.php on line 30
+[24-Dec-2022 12:35:03 America/Chicago] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/vendor/psr/log/src/LoggerInterface.php on line 30
+[24-Dec-2022 12:37:58 America/Chicago] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/vendor/psr/log/src/LoggerInterface.php on line 30
+[24-Dec-2022 12:41:31 America/Chicago] PHP Parse error:  syntax error, unexpected 'static' (T_STATIC) in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/vendor/psr/cache/src/CacheItemInterface.php on line 75
+[24-Dec-2022 12:42:59 America/Chicago] PHP Fatal error:  Declaration of Google\Auth\Cache\Item::getKey() must be compatible with Psr\Cache\CacheItemInterface::getKey(): string in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/vendor/google/auth/src/Cache/Item.php on line 33
+[24-Dec-2022 13:00:14 America/Chicago] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php:56
+Stack trace:
+#0 {main}
+  thrown in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php on line 56
+[24-Dec-2022 13:02:28 America/Chicago] PHP Fatal error:  Uncaught Exception: invalid_grant, Bad Request in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php:40
+Stack trace:
+#0 {main}
+  thrown in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php on line 40
+[24-Dec-2022 13:06:01 America/Chicago] PHP Warning:  Undefined variable $response in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php on line 46
+[24-Dec-2022 13:06:01 America/Chicago] PHP Warning:  Trying to access array offset on value of type null in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php on line 46
+[24-Dec-2022 13:06:01 America/Chicago] PHP Warning:  Undefined variable $response in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php on line 47
+[24-Dec-2022 13:06:01 America/Chicago] PHP Warning:  Trying to access array offset on value of type null in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php on line 47
+[24-Dec-2022 13:06:01 America/Chicago] PHP Warning:  Undefined variable $response in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php on line 49
+[24-Dec-2022 13:06:01 America/Chicago] PHP Warning:  Trying to access array offset on value of type null in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php on line 49
+[24-Dec-2022 13:06:01 America/Chicago] PHP Fatal error:  Uncaught TypeError: array_key_exists(): Argument #2 ($array) must be of type array, null given in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php:95
+Stack trace:
+#0 {main}
+  thrown in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php on line 95
+[24-Dec-2022 13:06:16 America/Chicago] PHP Warning:  Undefined array key "expires_in" in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php on line 49
+[24-Dec-2022 13:06:16 America/Chicago] PHP Fatal error:  Uncaught TypeError: array_key_exists(): Argument #2 ($array) must be of type array, null given in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php:95
+Stack trace:
+#0 {main}
+  thrown in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php on line 95
+[24-Dec-2022 13:07:54 America/Chicago] PHP Fatal error:  Uncaught TypeError: array_key_exists(): Argument #2 ($array) must be of type array, null given in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php:96
+Stack trace:
+#0 {main}
+  thrown in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php on line 96
+[24-Dec-2022 13:08:59 America/Chicago] PHP Fatal error:  Uncaught TypeError: array_key_exists(): Argument #2 ($array) must be of type array, null given in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php:96
+Stack trace:
+#0 {main}
+  thrown in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php on line 96
+[24-Dec-2022 13:09:35 America/Chicago] PHP Fatal error:  Uncaught TypeError: array_key_exists(): Argument #2 ($array) must be of type array, null given in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php:97
+Stack trace:
+#0 {main}
+  thrown in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php on line 97
+[24-Dec-2022 13:10:22 America/Chicago] PHP Fatal error:  Uncaught TypeError: array_key_exists(): Argument #2 ($array) must be of type array, null given in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php:97
+Stack trace:
+#0 {main}
+  thrown in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php on line 97
+[24-Dec-2022 13:10:35 America/Chicago] PHP Fatal error:  Uncaught TypeError: array_key_exists(): Argument #2 ($array) must be of type array, null given in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php:97
+Stack trace:
+#0 {main}
+  thrown in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php on line 97
+[24-Dec-2022 13:10:44 America/Chicago] PHP Fatal error:  Uncaught TypeError: array_key_exists(): Argument #2 ($array) must be of type array, null given in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php:97
+Stack trace:
+#0 {main}
+  thrown in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php on line 97
+[24-Dec-2022 13:10:59 America/Chicago] PHP Fatal error:  Uncaught TypeError: array_key_exists(): Argument #2 ($array) must be of type array, null given in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php:97
+Stack trace:
+#0 {main}
+  thrown in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php on line 97
+[24-Dec-2022 13:11:08 America/Chicago] PHP Fatal error:  Uncaught TypeError: array_key_exists(): Argument #2 ($array) must be of type array, null given in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php:97
+Stack trace:
+#0 {main}
+  thrown in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php on line 97
+[24-Dec-2022 13:11:20 America/Chicago] PHP Fatal error:  Uncaught TypeError: array_key_exists(): Argument #2 ($array) must be of type array, null given in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php:97
+Stack trace:
+#0 {main}
+  thrown in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php on line 97
+[24-Dec-2022 13:11:22 America/Chicago] PHP Fatal error:  Uncaught TypeError: array_key_exists(): Argument #2 ($array) must be of type array, null given in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php:97
+Stack trace:
+#0 {main}
+  thrown in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php on line 97
+[24-Dec-2022 13:11:22 America/Chicago] PHP Fatal error:  Uncaught TypeError: array_key_exists(): Argument #2 ($array) must be of type array, null given in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php:97
+Stack trace:
+#0 {main}
+  thrown in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php on line 97
+[24-Dec-2022 13:12:36 America/Chicago] PHP Fatal error:  Uncaught TypeError: array_key_exists(): Argument #2 ($array) must be of type array, null given in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php:97
+Stack trace:
+#0 {main}
+  thrown in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php on line 97
+[24-Dec-2022 13:13:27 America/Chicago] PHP Fatal error:  Uncaught TypeError: array_key_exists(): Argument #2 ($array) must be of type array, null given in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php:97
+Stack trace:
+#0 {main}
+  thrown in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php on line 97
+[24-Dec-2022 13:14:05 America/Chicago] PHP Fatal error:  Uncaught TypeError: array_key_exists(): Argument #2 ($array) must be of type array, null given in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php:97
+Stack trace:
+#0 {main}
+  thrown in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php on line 97
+[24-Dec-2022 13:14:42 America/Chicago] PHP Fatal error:  Uncaught TypeError: array_key_exists(): Argument #2 ($array) must be of type array, null given in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php:97
+Stack trace:
+#0 {main}
+  thrown in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php on line 97
+[24-Dec-2022 13:22:13 America/Chicago] PHP Warning:  Undefined variable $access_token in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php on line 88
+[24-Dec-2022 13:22:14 America/Chicago] PHP Fatal error:  Uncaught TypeError: array_key_exists(): Argument #2 ($array) must be of type array, null given in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php:102
+Stack trace:
+#0 {main}
+  thrown in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php on line 102
+[24-Dec-2022 13:22:40 America/Chicago] PHP Fatal error:  Uncaught TypeError: array_key_exists(): Argument #2 ($array) must be of type array, null given in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php:102
+Stack trace:
+#0 {main}
+  thrown in /home4/elect7wk/rapidexworldwide.com/testing/googleapi/get_token.php on line 102

@@ -1,0 +1,2120 @@
+<!--SEO TAGS KEYWORDS-->
+
+<?php
+
+include "include/config.php";
+define("TITLE", "International Courier & Cargo Service in Delhi/NCR - Rapidex");
+
+define("DESCRIPTION", "Rapidex, Best international courier & cargo service provider in Delhi NCR. The best deals for USA, UK, UAE, Europe, Canada, Australia, China, Singapore, Hongkong Shipping.");
+
+define("KEYWORDS", "Internatinal Courier Service, International Courier Service Near Me, International Courier Company, International Courier Company near Me, International Courier Service Provider, International Courier Service Provider in Delhi, International Courier Service, International Courier Service in Delhi, Courier Services near Me, Courier Agency, International Shipping Services near me, International Courier Charges, International Air Cargo Company, International Air Courier Service near me, Fastest International Courier, Relaible International Courier, Cheap International Courier, Cheapest International Courier Service, Best International Courier Service, Top International Courier Service, Top 10 International Courier Service, Cheap International Courier Service, Cheapest International Courier Services, Best International Courier Services");
+?>
+
+
+<style>
+    .contact-form form .form-group .form-control{
+        padding: 12px 20px !important;
+    }
+    .contact-form {
+        box-shadow:unset !important;
+    }
+    .navbar-brand img  {max-width:unset !important;}
+    .navbar-brand img  {max-width:unset !important;}
+    .client-img img{
+        height:100px !important;
+    }
+    .track_Tab > a.nav-link {
+            padding:34px 45 20px 45px !important;
+        }
+    .track_Tab > a.active {
+            padding:42px 47px 42px 45px !important;
+        }
+</style>
+
+<?php include("include/header.php") ?>
+
+<!--Tracking DIv-->
+
+<div class="tracking track pt-4 pb-100 backg">
+
+
+    <div class="containerWidth">
+
+        <!-- <h2>We Know your time values</h2>-->
+
+
+        <!-- partial:index.partial.php -->
+
+        <div class="container mycss d-flex justify-content-center flex-column">
+
+            <h1 class="text-center text-white mb-5 p-0" style="font-size:26px;">India's Best International Courier Company</h1>
+
+            <ul class="nav nav-tabs responsive" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#home" role="tab"> 
+                        <i class="fa fa-cogs mainCss" aria-hidden="true"></i><br/> Our <br/> Services
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#messages" role="tab">
+                        <i class="fa fa-edit mainCss" aria-hidden="true"></i><br/> Rates<br>Enquiry
+                    </a>
+                </li>
+                <li class="nav-item track_Tab">
+                    <a class="nav-link white " data-toggle="tab" href="#profile" role="tab">
+                        <i class="fa fa-truck mainCss" aria-hidden="true"></i> <br/> Track</a>
+                </li>
+
+
+            </ul>
+
+            <!-- Tab panes -->
+
+            <div class="tab-content responsive mainCsss2">
+
+
+                <!-- Service -->
+
+                <div class="tab-pane " id="profile" role="tabpanel">
+
+                    <div class="container-fluid">
+
+                        <div class="row">
+
+                            <div class="col-12">
+
+                                <div class="about-safe-text">
+
+                                    <div class="contact-form welco list">
+
+                                        <form id="contactForm" onSubmit="return false;">
+
+                                            <div class="row">
+
+                                                <h3> Track Your Shipment</h3>
+
+                                                <div class="col-lg-12 col-md-12">
+
+                                                    <div class="form-group">
+
+                                                        <input id="type_no" name="type_no" class="form-control"
+                                                               cols="30" rows="6" required="" style=" padding: 12px 20px;"
+                                                               placeholder="Enter your tracking number">
+                                                        <div id="tracking_error">
+                                                            <!--<span class="text-light bg-danger p-1">Please enter tracking number...</span>-->
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+                                            <div class="row">
+
+
+                                                <div class="col-lg-9 col-md-12 text-center">
+
+                                                    <div class="form-group">
+
+                                                        <p><a href="#">Track up to 10 numbers at a time.</a> <br/>
+
+                                                            <a href="#">Separate by a comma (,) or return (entry)</a>
+                                                        </p>
+
+                                                    </div>
+
+                                                </div>
+
+                                                <div class="col-lg-3 col-md-12 text-center">
+
+                                                    <div class="form-group mans-track">
+
+                                                        <input type="submit" class="default-btn-one newcss"
+                                                               onClick="trackOrder()" id="trackOrderButton" value="Track">
+                                                        </input>
+
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+                                        </form>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Service -->
+
+
+                <!-- Track -->
+
+                <div class="tab-pane" id="home" role="tabpanel">
+
+                    <div class="container-fluid">
+
+                        <div class="row">
+
+                            <div class="col-lg-4 col-sm-6 spacing spacing1">
+
+                                <div class="service-card-two"><img  class="freight-image"
+                                                                   data-original="<?=BASE_URL?>/assets/img/services/International-Courier.webp"
+                                                                   alt="International Courier" width="100%">
+
+                                    <div class="service-caption list55">
+
+                                        <h3 class="list66" style="color: black; padding: 6px;">International <br>Courier Services</h3>
+
+                                        <a href="international-courier-services.php"
+                                           title="International Courier Services" class="default-btn-two list">Read
+                                            More</a></div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-lg-4 col-sm-6 spacing">
+
+                                <div class="service-card-two"><img  class="freight-image"
+                                                                   data-original="<?=BASE_URL?>/assets/img/freight/freight3.webp"
+                                                                   alt="Air Cargo Express Services" width="100%">
+
+                                    <div class="service-caption list55">
+
+                                        <h3 class="list66" style="color: black; padding: 6px;">Air Cargo <br>Express Services</h3>
+
+                                        <a href="air-cargo-services.php" title="Air Cargo Express Services"
+                                           class="default-btn-two list">Read More</a></div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-lg-4 col-sm-6 spacing">
+
+                                <div class="service-card-two"><img  class="freight-image"
+                                                                   data-original="<?=BASE_URL?>/assets/img/services/Commercial-Shipment.webp"
+                                                                   alt="Commercial Shipment" width="100%">
+
+                                    <div class="service-caption list55">
+
+                                        <h3 class="list66" style="color: black; padding: 6px;">Commercial <br>Shipment</h3>
+
+                                        <a href="commercial-shipment.php" title="Commercial Shipment"
+                                           class="default-btn-two list">Read More</a></div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Track -->
+
+
+                <!-- Rate & Transit Times -->
+
+                <div class="tab-pane active" id="messages" role="tabpanel">
+
+                    <div class="container-fluid">
+
+                        <div class="row">
+
+                            <div class="col-12 p-2">
+
+                                <div class="about-safe-text">
+
+                                    <div class="contact-form list list24 ">
+
+                                        <form name="dataform" action="list.php"
+                                              class="reservation-form mt-20" method="post">
+                                            <div class="row">
+                                                <div class="col-lg-4 col-md-4">
+                                                    <div class="form-group mysear">
+                                                        <label>Pick Up Pin Code</label>
+                                                        <input type="number" class="form-control list pickupPincode" name="pincode"
+                                                               value=""
+                                                               placeholder="Pick Up from Pin Code">
+
+
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-4">
+                                                    <div class="form-group">
+                                                        <label> To, Destination </label>
+                                                        <select name="country" class="form-control list load_country_on_click"
+                                                                required style="padding-top:unset!important; padding-bottom:unset!important;">
+                                                            <option selected="selected" value="">-Select Country-</option>
+
+                                                        </select>
+                                                        <div class="help-block with-errors"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-4">
+                                                    <div class="form-group">
+                                                        <label>Package Type</label>
+                                                        <select name="package_type"
+                                                                class="form-control list" required style="padding-top:unset!important; padding-bottom:unset!important;">
+                                                            <option selected="selected" value="">-Package Type-</option>
+
+                                                            <? $sqlpt = mysqli_query($conn, "select * from package_type");
+                                                            while ($rowpt = mysqli_fetch_array($sqlpt)) { ?>
+                                                                <option value="<? echo $rowpt['option_val']; ?>"><? echo $rowpt['name']; ?></option>
+
+                                                            <? } ?>
+
+                                                        </select>
+                                                        <div class="help-block with-errors"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-4">
+                                                    <div class="form-group">
+                                                        <label>Weight</label>
+                                                        <select name="weight"  class="form-control list"
+                                                                required style="padding-top:unset!important; padding-bottom:unset!important;">
+
+                                                            <option value="">-Select Weight-</option>
+                                                            <option value="0.5">Up to 500 Grms</option>
+                                                            <option value="" disabled="disabled">--------</option>
+                                                            <option value="1">1.0 Kg</option>
+                                                            <option value="1.5">1.5 Kg</option>
+                                                            <option value="2">2.0 Kg</option>
+                                                            <option value="2.5">2.5 Kg</option>
+                                                            <option value="3">3.0 Kg</option>
+                                                            <option value="3.5">3.5 Kg</option>
+                                                            <option value="4">4.0 Kg</option>
+                                                            <option value="4.5">4.5 Kg</option>
+                                                            <option value="5">5.0 Kg</option>
+                                                            <option value="5.5">5.5 Kg</option>
+                                                            <option value="6">6.0 Kg</option>
+                                                            <option value="6.5">6.5 Kg</option>
+                                                            <option value="7">7.0 Kg</option>
+                                                            <option value="7.5">7.5 Kg</option>
+                                                            <option value="8">8.0 Kg</option>
+                                                            <option value="8.5">8.5 Kg</option>
+                                                            <option value="9">9.0 Kg</option>
+                                                            <option value="9.5">9.5 Kg</option>
+                                                            <option value="10">10.0 Kg</option>
+                                                            <option value="10.5">10.5 Kg</option>
+                                                            <option value="11">11.0 Kg</option>
+                                                            <option value="11.5">11.5 Kg</option>
+                                                            <option value="12">12.0 Kg</option>
+                                                            <option value="12.5">12.5 Kg</option>
+                                                            <option value="13">13.0 Kg</option>
+                                                            <option value="13.5">13.5 Kg</option>
+                                                            <option value="14">14.0 Kg</option>
+                                                            <option value="14.5">14.5 Kg</option>
+                                                            <option value="15">15.0 Kg</option>
+                                                            <option value="15.5">15.5 Kg</option>
+                                                            <option value="16">16.0 Kg</option>
+                                                            <option value="16.5">16.5 Kg</option>
+                                                            <option value="17">17.0 Kg</option>
+                                                            <option value="17.5">17.5 Kg</option>
+                                                            <option value="18">18.0 Kg</option>
+                                                            <option value="18.5">18.5 Kg</option>
+                                                            <option value="19">19.0 Kg</option>
+                                                            <option value="19.5">19.5 Kg</option>
+                                                            <option value="20">20.0 Kg</option>
+                                                            <option value="21">21.0 Kg</option>
+                                                            <option value="22">22.0 Kg</option>
+                                                            <option value="23">23.0 Kg</option>
+                                                            <option value="24">24.0 Kg</option>
+                                                            <option value="25">25.0 Kg</option>
+                                                            <option value="26">26.0 Kg</option>
+                                                            <option value="27">27.0 Kg</option>
+                                                            <option value="28">28.0 Kg</option>
+                                                            <option value="29">29.0 Kg</option>
+                                                            <option value="30">30.0 Kg</option>
+                                                            <option value="31-35">31.0 Kg to 35.0 Kg</option>
+
+                                                            <option value="36-40">36.0 Kg to 40.0 Kg</option>
+                                                            <option value="41-45">41.0 Kg to 45.0 Kg</option>
+                                                            <option value="46-50">46.0 Kg to 50.0 Kg</option>
+                                                            <option value="51-55">51.0 Kg to 55.0 Kg</option>
+                                                            <option value="56-60">56.0 Kg to 60.0 Kg</option>
+                                                            <option value="61-65">61.0 Kg to 65.0 Kg</option>
+                                                            <option value="66-70">66.0 Kg to 70.0 Kg</option>
+                                                            <option value="71">More than 70.0 Kg</option>
+
+
+                                                        </select>
+                                                        <div class="help-block with-errors"></div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-lg-4 col-md-4">
+                                                    <div class="form-group">
+                                                        <label>Dimensions in Cm</label>
+                                                        <div class="d-flex">
+                                                            <input type="number" name="l"
+                                                                   class="form-control list dim-l" cols="5" rows="6"
+                                                                   placeholder="L" >
+                                                            <input type="number" name="w"
+                                                                   class="form-control list dim-w mx-1" cols="5" rows="6"
+                                                                   placeholder="W" >
+                                                            <input type="number" name="h"
+                                                                   class="form-control list dim-h" cols="5" rows="6"
+                                                                   placeholder="H" >
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-lg-4 col-md-4">
+                                                    <div class="form-group">
+                                                        <label>Contact No.</label>
+                                                        <input type="number" name="mobile"
+                                                               class="form-control list" cols="30" rows="6"
+                                                               placeholder="Mobile/Phone" required>
+                                                        <div class="help-block with-errors"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12 col-md-12 text-center" style="margin-top:-20px;">
+                                                    <button type="submit" value="Submit" name="submit"
+                                                            class="default-btn-oneOne"
+                                                            style="background: rgb(206 40 39) none repeat scroll 0% 0%; color: rgb(255, 255, 255); pointer-events: all; cursor: pointer;">
+                                                        Get Charges
+                                                    </button>
+                                                    <div class="col-lg-12 col-md-12 text-center text-light" style="padding-top:10px;">
+                                                        <span style="font-size:smaller">*We do not share your details to any third party. Read our <a class="text-primary" href ="https://rapidexworldwide.com/privacy-policy.php" target="_blank">Privacy Policy</a></span>
+                                                    </div>
+                                                    <div id="msgSubmit" class="h3 text-center hidden"></div>
+                                                    <div class="clearfix"></div>
+                                                </div>
+                                            </div>
+                                        </form>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Rate & Transit Times -->
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div id="particles-js"></div>
+
+</div>
+<!--Tracking DIv-->
+
+<div class="container">
+
+    <div class="contact-area my-4 mb-85">
+
+        <div class="contact-content">
+
+            <div class="row">
+
+
+                <div class="col-md-4 mb-1 mainC">
+
+                    <div class="contact-card"><i class='bx bxs-plane'></i>
+
+                        <h4>International Courier & Cargo Services</h4>
+
+                        <p>Rapidex Worldwide Express is an International Courier & Cargo Service provider based in
+                            Delhi, providing services throughout Delhi/NCR. </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-md-4 mainC mb-1">
+
+                    <div class="contact-card"><i class="fa fa-handshake-o" aria-hidden="true"></i>
+
+                        <h4>Reasonable Rates For Express & Economy Shipping</h4>
+
+                        <p>Reasonable rates for express & economy shipping from India to anywhere in the world.</p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-md-4 mainC list">
+
+                    <div class="contact-card list d-xs-none"><i class="fa fa-headphones" aria-hidden="true"></i>
+
+                        <h4>24X7 Customer Support Service</h4>
+
+                        <p>When you ship with us, you can have a peace of mind that a dedicated team of customer support
+                            is working for you 24X7. For queries contact
+
+                        </p>
+
+                        <p> +91-9311979812 , +91-9910546802 </p>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div class="about-area pb-100">
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-lg-4 pb-2">
+
+                <div class="about-contant">
+
+                    <div class="section-title">
+
+                        <h2>World Wide Courier Solutions with the commitment</h2>
+
+                    </div>
+
+                    <div class="about-text">
+
+                        <p>Rapidex Worldwide Express believes reliability is the key to satisfied customer. Rapidex
+                            Worldwide Express are trained to deliver packages with care and speed through the use of our
+                            advanced monitoring and tracking system.
+
+                            Knowing your package is safe and in good hands is our business.We provide International
+                            courier service to customers who demand immediate attention. As your reliable courier we
+                            offer solutions to your delivery needs.
+
+
+                        </p>
+
+                        <p>Rapidex Worldwide Express Services is an enterprise of professional people came together with
+                            the commitment to achieving business objectives by delivering values and building long term
+                            customer relationships. With the vision
+
+                            to become a leading International courier solution partner, we promise to work in
+                            partnership in client and provide them a platform to deliver value to the end customer.</p>
+
+                        <a href="about.php" class="default-btn-one btn-bs" title="Learn More">Learn More</a></div>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-4">
+
+                <div class="about-image"><img data-original="<?=BASE_URL?>/assets/img/about/about1.webp"
+                                              alt="International Courier Company In Delhi" height="646px"  ></div>
+
+            </div>
+
+            <div class="col-lg-4 p-0">
+
+                <div class="about-tabs">
+
+                    <div class="tab-contant">
+
+                        <h2 class="title">Our Core Value</h2>
+
+                        <nav>
+
+                            <div class="nav nav-tabs" id="nav-tab" role="tablist"><a class="nav-link active"
+                                                                                     id="nav-vision-tab"
+                                                                                     data-toggle="tab"
+                                                                                     href="#nav-vision" role="tab"
+                                                                                     aria-controls="nav-vision"
+                                                                                     aria-selected="true"
+                                                                                     style="min-height: inherit !important; font-size:14px">What
+                                    We Offer</a>
+
+                                <a class="nav-link nav-link-two" id="nav-mission-tab" data-toggle="tab"
+                                   href="#nav-mission" role="tab" aria-controls="nav-mission" aria-selected="false"
+                                   style="min-height: inherit !important; font-size:14px">Service Spotlight</a>
+
+                            </div>
+
+                        </nav>
+
+                        <div class="tab-content" id="nav-tabContent" style="background:#fff !important">
+
+                            <div class="tab-pane fade show active" id="nav-vision" role="tabpanel"
+                                 aria-labelledby="nav-vision-tab">
+
+                                <div class="vision">
+
+                                    <p style="text-align:left">When it comes to international courier, we all think that
+                                        it is a complicated and expensive task. But this is not the case with Rapidex
+                                        Worldwide Express. We offer cheap and reliable courier services.</p>
+
+
+                                    <p style="text-align:left">Rapidex Worldwide Express is a leading international
+                                        courier & cargo service provider of end-to-end supply chain solutions
+                                        demonstrating core competencies in express delivery in worldwide countries. Our
+                                        global network
+
+                                        of companies and collaborations with the multinational courier companies has
+                                        enabled us to satisfy the needs of our customers.</p>
+
+                                </div>
+
+                            </div>
+
+                            <div class="tab-pane fade" id="nav-mission" role="tabpanel"
+                                 aria-labelledby="nav-mission-tab">
+
+                                <div class="vision">
+
+                                    <ul>
+
+
+                                        <li><i class='bx bx-check'></i> Express Document Services</li>
+
+
+                                        <li><i class='bx bx-check'></i> Medicine Delivery Services</li>
+
+
+                                        <li><i class='bx bx-check'></i> Foods Items Delivery Services</li>
+
+                                        <li><i class='bx bx-check'></i> Express Import & Export Services</li>
+
+                                        <li><i class='bx bx-check'></i> Cosmetics Items Delivery Services</li>
+
+                                        <li><i class='bx bx-check'></i> International Courier & Cargo Services</li>
+
+                                    </ul>
+
+                                    <p style="padding:10px 0"><strong>We have gained good clients in less time due to
+                                            our effective working style and with cost effective services. We request for
+                                            your kind consideration in giving us an opportunity for extending our most
+                                            competitive, economical & efficient time bound services.</strong></p>
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div class="services-area ptb-100">
+
+    <div class="container">
+
+        <div class="section-title"><span>Our Services</span>
+
+            <h2>Safe and Faster <br>International Courier & Cargo Services</h2>
+
+        </div>
+
+        <div class="row">
+
+
+            <div class="col-lg-4 col-sm-6">
+
+                <div class="service-card-two"><img  class="freight-image"
+                                                   data-original="<?=BASE_URL?>/assets/img/services/International-Courier.webp"
+                                                   alt="International Courier Services Near Me" width="100%" height="auto" >
+
+                    <div class="service-caption">
+
+                        <h3>International Courier Services</h3>
+
+                        <p>Rapidex Worldwide Express is the best International courier services near you to select. We
+                            are an extensive solution for the international...</p>
+
+                        <a href="international-courier-services.php" title="International Courier Services In Delhi"
+                           class="default-btn-two">Read More</a></div>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-lg-4 col-sm-6">
+
+                <div class="service-card-two"><img  class="freight-image" data-original="<?=BASE_URL?>/assets/img/freight/freight3.webp"
+                                                   alt="Air Cargo Services" width="100%" height="auto" >
+
+                    <div class="service-caption">
+
+                        <h3>Air Cargo Services</h3>
+
+                        <p>Rapidex Worldwide Express Offer the phenomenal Air Courier service. We provide the best
+                            possible air services. We are also specialized.</p>
+
+                        <a href="air-cargo-services.php" title="Air Cargo Services in Delhi" class="default-btn-two">Read
+                            More</a></div>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-lg-4 col-sm-6">
+
+                <div class="service-card-two"><img  class="freight-image" data-original="<?=BASE_URL?>/assets/img/freight/freight2.webp"
+                                                   alt="Sea Cargo Services" width="100%" height="auto" >
+
+                    <div class="service-caption">
+
+                        <h3>Sea Cargo Services</h3>
+
+                        <p>When we look into the services like Sea cargo, a logistic company should have to be packed
+                            with experience as well as should have the right connections.</p>
+
+                        <a href="sea-cargo-services.php" title="Sea Cargo Services in Delhi" class="default-btn-two">Read
+                            More</a></div>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-lg-4 col-sm-6">
+
+                <div class="service-card-two"><img  class="freight-image" data-original="<?=BASE_URL?>/assets/img/services/services4.webp"
+                                                   alt="Express Document Services" width="100%" height="auto" >
+
+                    <div class="service-caption">
+
+                        <h3>Express Document Services</h3>
+
+                        <p>Rapidex Worldwide Express takes care of all your important documents and parcel shipment and
+                            also offers you the premier services.</p>
+
+                        <a href="express-document-services.php" title="Express Document Services in Delhi"
+                           class="default-btn-two">Read More</a></div>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-lg-4 col-sm-6">
+
+                <div class="service-card-two"><img  class="freight-image" data-original="<?=BASE_URL?>/assets/img/services/Medicine-Courier.webp"
+                                                   alt="Medicine Delivery Services" width="100%" height="auto" >
+
+                    <div class="service-caption">
+
+                        <h3>Medicine Delivery Services</h3>
+
+                        <p>Rapidex Worldwide Express deliver medicine at your doorstep conveniently. We are one of the
+                            ultimate medicine delivery service providers.</p>
+
+                        <a href="medicine-delivery-services.php" title="Medicine Delivery Services in Delhi"
+                           class="default-btn-two">Read More</a></div>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-lg-4 col-sm-6">
+
+                <div class="service-card-two"><img  class="freight-image" data-original="<?=BASE_URL?>/assets/img/services/Import-Services.webp"
+                                                   alt="Express Import Services" width="100%" height="auto">
+
+                    <div class="service-caption">
+
+                        <h3>Express Import Services</h3>
+
+                        <p>Rapidex  is a professional in providing express import services. Sometimes the regulations
+                            which are based on export and import could be quite complex. </p>
+
+                        <a href="express-import-services.php" title="Express Import Services in Delhi"
+                           class="default-btn-two">Read More</a></div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <div class="view-btn"><a href="services.php" title="View All" class="default-btn">View All</a></div>
+
+    </div>
+
+    <div class="services-shape"></div>
+
+</div>
+
+
+<div class="choose-area ptb-100 speciality-area">
+
+    <div class="shape-one"><img  data-original="<?=BASE_URL?>/assets/img/shape/shape5.png" alt="Worldwide Service"></div>
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-lg-6 col-md-6">
+
+                <div class="choose-contant">
+
+                    <div class="choose-card"><i class='bx bx-world'></i>
+
+                        <h3>Worldwide Service</h3>
+
+                        <p>Covering number of countries in response to provide you the best convenient service, go for
+                            the best Deal available all the time for you.</p>
+
+                    </div>
+
+                </div>
+
+                <div class="choose-contant">
+
+                    <div class="choose-card"><i class='bx bxs-paper-plane'></i>
+
+                        <h3>Tracking Service</h3>
+
+                        <p>You can track your product any time sitting back at home 24x7, Now you can keep eye on your
+                            product not only when it is in India but globally.</p>
+
+                    </div>
+
+                </div>
+
+                <div class="choose-contant">
+
+                    <div class="choose-card"><i class='bx bxs-truck'></i>
+
+                        <h3>Fast and Reliable</h3>
+
+                        <p>Rapidex has the first policy which you get with pocket friendly range to deliver your product
+                            worldwide in just 3 working days.</p>
+
+                    </div>
+
+                </div>
+
+                <div class="choose-contant">
+
+                    <div class="choose-card"><i class='bx bx-support'></i>
+
+                        <h3>24/7 Support</h3>
+
+                        <p>Team of Rapidex Worldwide Express is available 24x7 for the support for your reliability and
+                            comfort. Rapidex Worldwide Express is available in multiple languages to deal with you. </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-6 col-md-6 d-sm-block mt-4">
+
+                <div class="choose-text">
+
+                    <div class="section-title"> <span>
+
+Reasons why you choose Rapidex
+
+</span>
+
+                        <h2>Safe and Faster International Courier & Cargo Services Near You</h2>
+
+                    </div>
+
+                    <ul>
+
+                        <li><i class="bx bx-check"></i> International Courier Services</li>
+
+                        <li><i class="bx bx-check"></i> Worldwide Express Services</li>
+
+                        <li><i class="bx bx-check"></i> Documents Courier Service</li>
+
+                        <li><i class="bx bx-check"></i> Express Delivery Service</li>
+
+                        <li><i class="bx bx-check"></i> Safe & Fast Delivery</li>
+
+                        <li><i class="bx bx-check"></i> Global Supply Chain</li>
+
+                        <li><i class="bx bx-check"></i> Carefully Handling</li>
+
+                        <li><i class="bx bx-check"></i> On time Delivery</li>
+
+                        <li><i class="bx bx-check"></i> 24/7 Support</li>
+
+                    </ul>
+
+
+                    <a href="contact.php" class="default-btn-one" title="Contact Us">Contact Us</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<div class="testimonials-area ptb-100">
+
+    <div class="container">
+
+        <div class="section-title"><span>Feedback</span>
+
+            <h2>Client Testimonials</h2>
+
+        </div>
+
+        <div class="testimonials-slider owl-carousel owl-theme">
+
+            <div class="testimonials-card">
+
+                <div class="client-img"><img  data-original="<?=BASE_URL?>/assets/img/user.webp" style="height:100px !important" width="" alt="John williams">
+
+                    <h3>John williams</h3>
+
+                    <span>Bandra, Mumbai</span></div>
+
+                <div class="rating"><i class='bx bxs-star'></i> <i class='bx bxs-star'></i> <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i> <i class='bx bxs-star'></i></div>
+
+                <div class="feedback-text">
+
+                    <p>Rapidex is the best solution for delivering your cargo; I really had a good experience Rapidex
+                        works as their own products which is seriously a plus point. Good job Rapidex and team.</p>
+
+                </div>
+
+            </div>
+
+            <div class="testimonials-card">
+
+                <div class="client-img"><img  data-original="<?=BASE_URL?>/assets/img/user.webp" style="height:100px !important"  alt="Heshav Aggarwal">
+
+                    <h3>Heshav Aggarwal</h3>
+
+                    <span>Tilak Nagar, Delhi</span></div>
+
+                <div class="rating"><i class='bx bxs-star'></i> <i class='bx bxs-star'></i> <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i> <i class='bx bxs-star'></i></div>
+
+                <div class="feedback-text">
+
+                    <p>One day when I was in the airport heading towards England from India, because of extra luggage I
+                        got stuck but thanks to Rapidex who helped me get my stuff at my place as per given time without
+                        any damage. Rapidex is the best experience
+
+                        for me and I suggest others too.</p>
+
+                </div>
+
+            </div>
+
+            <div class="testimonials-card">
+
+                <div class="client-img"><img  data-original="<?=BASE_URL?>/assets/img/user.webp" style="height:100px !important" alt="Harsh Sinha">
+
+                    <h3>Harsh Sinha</h3>
+
+                    <span>Siliguri, Kolkotta </span></div>
+
+                <div class="rating"><i class='bx bxs-star'></i> <i class='bx bxs-star'></i> <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i> <i class='bx bxs-star'></i></div>
+
+                <div class="feedback-text">
+
+                    <p>When it is to shift internationally and confuse with how to get the luggage shifted then Rapidex
+                        is the best solution, whenever I or from my relatives migrate, I prefer Rapidex first then
+                        others.</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div class="mnas_clients">
+
+    <div class="container-fluid">
+        <div class="section-title">
+            <h2>Shipment Booking to Delivery Process</h2>
+        </div>
+        <div class="row" style="overflow-x:auto">
+
+            <table class="border-0">
+
+                <tr>
+
+                    <th>
+
+                        <div class="mans_clbox">
+
+                            <a href="tel:01141003020" class="mans_clb">
+
+
+                                <div class="row no-gutters align-items-center">
+
+                                    <div class="col-md-3 col-4">
+
+                                        <img  data-original="<?=BASE_URL?>/assets/img/pro1.webp" width="53" height="53" class="img-fluid" alt="Rapidex Call">
+
+                                    </div>
+
+                                    <div class="col-md-9 col-8">
+
+                                        <p>Call: 011-4100 3020</p>
+
+                                    </div>
+
+                                </div>
+
+                            </a>
+
+                        </div>
+
+                    </th>
+
+                    <th>
+
+                        <div class="mans_clbox">
+
+                            <a href="#" class="mans_clb">
+
+
+                                <div class="row no-gutters align-items-center">
+
+                                    <div class="col-md-3 col-4">
+
+                                        <img  data-original="<?=BASE_URL?>/assets/img/pro2.webp" width="53" height="53" class="img-fluid" alt="Rapidex Note">
+
+                                    </div>
+
+                                    <div class="col-md-9 col-8">
+
+                                        <p>Book Your Shipment</p>
+
+                                    </div>
+
+                                </div>
+
+                            </a>
+
+                        </div>
+
+                    </th>
+
+                    <th>
+
+                        <div class="mans_clbox">
+
+                            <a href="#" class="mans_clb">
+
+
+                                <div class="row no-gutters align-items-center">
+
+                                    <div class="col-md-3 col-4">
+
+                                        <img  data-original="<?=BASE_URL?>/assets/img/pro3.webp"  width="53" height="53" class="img-fluid" alt="Rapidex Courier Van">
+
+                                    </div>
+
+                                    <div class="col-md-9 col-8">
+
+                                        <p> Pickup Scheduled</p>
+
+                                    </div>
+
+                                </div>
+
+                            </a>
+
+                        </div>
+
+                    </th>
+
+                    <th>
+
+                        <div class="mans_clbox">
+
+                            <a href="#" class="mans_clb">
+
+
+                                <div class="row no-gutters align-items-center">
+
+                                    <div class="col-md-3 col-4">
+
+                                        <img  data-original="<?=BASE_URL?>/assets/img/pro4.webp"  width="53" height="53" class="img-fluid" alt="Rapidex Courier Icon">
+
+                                    </div>
+
+                                    <div class="col-md-9 col-8">
+
+                                        <p>Shipment Picked</p>
+
+                                    </div>
+
+                                </div>
+
+                            </a>
+
+                        </div>
+
+                    </th>
+
+                    <th>
+
+                        <div class="mans_clbox">
+
+                            <a href="#" class="mans_clb">
+
+
+                                <div class="row no-gutters align-items-center">
+
+                                    <div class="col-md-3 col-4">
+
+                                        <img  data-original="<?=BASE_URL?>/assets/img/pro5.webp" width="53" height="53" class="img-fluid"
+                                             alt="Rapidex Air Courier Services ">
+
+                                    </div>
+
+                                    <div class="col-md-9 col-8">
+
+                                        <p> Ready To Fly</p>
+
+                                    </div>
+
+                                </div>
+
+                            </a>
+
+                        </div>
+
+                    </th>
+
+                    <th>
+
+                        <div class="mans_clbox">
+
+                            <a href="#" class="mans_clb">
+
+
+                                <div class="row no-gutters align-items-center">
+
+                                    <div class="col-md-3 col-4">
+
+                                        <img  data-original="<?=BASE_URL?>/assets/img/pro6.webp"  width="53" height="53" class="img-fluid"
+                                             alt="Door to Door Delivery Services">
+
+                                    </div>
+
+                                    <div class="col-md-9 col-8">
+
+                                        <p>Delivered</p>
+
+                                    </div>
+
+                                </div>
+
+                            </a>
+
+                        </div>
+
+                    </th>
+
+                </tr>
+
+            </table>
+
+
+            <!-- <div class="col-md-2 col-12">
+
+            <div class="mans_clbox">
+
+                 <a href="tel:01141003020" class="mans_clb">
+
+
+
+                <div class="row no-gutters align-items-center">
+
+                    <div class="col-md-3 col-4">
+
+                        <img  data-original="<?=BASE_URL?>/assets/img/pro1.png" class="img-fluid" alt="">
+
+                    </div>
+
+                     <div class="col-md-9 col-8">
+
+                         <p>Call: 011-4100 3020</p>
+
+                     </div>
+
+                </div>
+
+                     </a>
+
+            </div>
+
+        </div>
+
+
+
+
+
+        <div class="col-md-2 col-12">
+
+            <div class="mans_clbox">
+
+                 <a href="#" class="mans_clb">
+
+
+
+                <div class="row no-gutters align-items-center">
+
+                    <div class="col-md-3 col-4">
+
+                        <img  data-original="<?=BASE_URL?>/assets/img/pro2.png" class="img-fluid" alt="">
+
+                    </div>
+
+                     <div class="col-md-9 col-8">
+
+                         <p>Book Your Shipment</p>
+
+                     </div>
+
+                </div>
+
+                     </a>
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+        <div class="col-md-2 col-12">
+
+            <div class="mans_clbox">
+
+                 <a href="#" class="mans_clb">
+
+
+
+                <div class="row no-gutters align-items-center">
+
+                    <div class="col-md-3 col-4">
+
+                        <img  data-original="<?=BASE_URL?>/assets/img/pro3.png" class="img-fluid" alt="">
+
+                    </div>
+
+                     <div class="col-md-9 col-8">
+
+                         <p> Pickup Scheduled</p>
+
+                     </div>
+
+                </div>
+
+                     </a>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="col-md-2 col-12">
+
+            <div class="mans_clbox">
+
+                 <a href="#" class="mans_clb">
+
+
+
+                <div class="row no-gutters align-items-center">
+
+                    <div class="col-md-3 col-4">
+
+                        <img  data-original="<?=BASE_URL?>/assets/img/pro4.png" class="img-fluid" alt="">
+
+                    </div>
+
+                     <div class="col-md-9 col-8">
+
+                         <p>Shipment Picked</p>
+
+                     </div>
+
+                </div>
+
+                     </a>
+
+            </div>
+
+        </div>
+
+
+
+
+
+        <div class="col-md-2 col-12">
+
+            <div class="mans_clbox">
+
+                 <a href="#" class="mans_clb">
+
+
+
+                <div class="row no-gutters align-items-center">
+
+                    <div class="col-md-3 col-4">
+
+                        <img  data-original="<?=BASE_URL?>/assets/img/pro5.png" class="img-fluid" alt="">
+
+                    </div>
+
+                     <div class="col-md-9 col-8">
+
+                         <p> Ready To Fly</p>
+
+                     </div>
+
+                </div>
+
+                     </a>
+
+            </div>
+
+        </div>
+
+
+
+
+
+        <div class="col-md-2 col-12">
+
+            <div class="mans_clbox">
+
+                 <a href="#" class="mans_clb">
+
+
+
+                <div class="row no-gutters align-items-center">
+
+                    <div class="col-md-3 col-4">
+
+                        <img  data-original="<?=BASE_URL?>/assets/img/pro6.png" class="img-fluid" alt="">
+
+                    </div>
+
+                     <div class="col-md-9 col-8">
+
+                         <p>Delivered</p>
+
+                     </div>
+
+                </div>
+
+                     </a>
+
+            </div>
+
+        </div>-->
+
+        </div>
+    </div>
+
+</div>
+
+
+<div class="transportation-area">
+
+    <div class="container-fluid p-0">
+
+        <div class="row no-gutters">
+
+            <div class="col-lg-6">
+
+                <div class="transportation-form">
+
+                    <div class="section-title">
+                        <!--<span>Enquiry Now</span>-->
+
+                        <h2>Calculate Shipping Charges</h2>
+                        <span style="font-weight:500; margin-bottom:1rem; font-size:15px;">Fill the Details from below list to get the best price</span>
+
+                    </div>
+
+                    <div class="transportation-shape d-sm-block d-none"><img  data-original="<?=BASE_URL?>/assets/img/shape/shape3.png" alt="icon"></div>
+
+                    <form action="list.php" class="wpcf7-form" method="post">
+
+                        <div class="form-group mysear">
+                            <input type="number" class="form-control number_arrow_hide pickupPincode" name="pincode" placeholder="Pick Up From Pin Code ">
+                        </div>
+
+                        <div class="form-group">
+                            <select name="country"  id="Ddlcountry" class="form-control load_country_on_click" required>
+                                <option  selected="selected" style="color:black">-Select Country-</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+
+                            <select name="package_type"  class="form-control" required>
+                                <option selected="selected" style="color:black" value="">-Package Type-</option>
+                                <? $sqlpt=mysqli_query($conn,"select * from package_type");
+                                while($rowpt=mysqli_fetch_array($sqlpt)){ ?>
+                                    <option style="color:black" value="<? echo $rowpt['option_val']; ?>"><? echo $rowpt['name']; ?></option>
+                                <? } ?>
+
+                            </select>
+
+                        </div>
+
+
+                        <div class="form-group">
+                            <select name="weight" class="form-control enquiry-form-select" required>
+                                <option value="">-Select Weight-</option>
+                                <option value="0.5" >Up to 500 Grms</option>
+                                <option value="" disabled="disabled">--------</option>
+                                <option value="1">1.0 Kg</option>
+                                <option value="1.5">1.5 Kg</option>
+                                <option value="2">2.0 Kg</option>
+                                <option value="2.5">2.5 Kg</option>
+                                <option value="3">3.0 Kg</option>
+                                <option value="3.5">3.5 Kg</option>
+                                <option value="4">4.0 Kg</option>
+                                <option value="4.5">4.5 Kg</option>
+                                <option value="5">5.0 Kg</option>
+                                <option value="5.5">5.5 Kg</option>
+                                <option value="6">6.0 Kg</option>
+                                <option value="6.5">6.5 Kg</option>
+                                <option value="7">7.0 Kg</option>
+                                <option value="7.5">7.5 Kg</option>
+                                <option value="8">8.0 Kg</option>
+                                <option value="8.5">8.5 Kg</option>
+                                <option value="9">9.0 Kg</option>
+                                <option value="9.5">9.5 Kg</option>
+                                <option value="10">10.0 Kg</option>
+                                <option value="10.5">10.5 Kg</option>
+                                <option value="11">11.0 Kg</option>
+                                <option value="11.5">11.5 Kg</option>
+                                <option value="12">12.0 Kg</option>
+                                <option value="12.5">12.5 Kg</option>
+                                <option value="13">13.0 Kg</option>
+                                <option value="13.5">13.5 Kg</option>
+                                <option value="14">14.0 Kg</option>
+                                <option value="14.5">14.5 Kg</option>
+                                <option value="15">15.0 Kg</option>
+                                <option value="15.5">15.5 Kg</option>
+                                <option value="16">16.0 Kg</option>
+                                <option value="16.5">16.5 Kg</option>
+                                <option value="17">17.0 Kg</option>
+                                <option value="17.5">17.5 Kg</option>
+                                <option value="18">18.0 Kg</option>
+                                <option value="18.5">18.5 Kg</option>
+                                <option value="19">19.0 Kg</option>
+                                <option value="19.5">19.5 Kg</option>
+                                <option value="20">20.0 Kg</option>
+                                <option value="21">21.0 Kg</option>
+                                <option value="22">22.0 Kg</option>
+                                <option value="23">23.0 Kg</option>
+                                <option value="24">24.0 Kg</option>
+                                <option value="25">25.0 Kg</option>
+                                <option value="26">26.0 Kg</option>
+                                <option value="27">27.0 Kg</option>
+                                <option value="28">28.0 Kg</option>
+                                <option value="29">29.0 Kg</option>
+                                <option value="30">30.0 Kg</option>
+                                <option value="31-35">31.0 Kg to 35.0 Kg</option>
+
+                                <option value="36-40">36.0 Kg to 40.0 Kg</option>
+                                <option value="41-45">41.0 Kg to 45.0 Kg</option>
+                                <option value="46-50">46.0 Kg to 50.0 Kg</option>
+                                <option value="51-55">51.0 Kg to 55.0 Kg</option>
+                                <option value="56-60">56.0 Kg to 60.0 Kg</option>
+                                <option value="61-65">61.0 Kg to 65.0 Kg</option>
+                                <option value="66-70">66.0 Kg to 70.0 Kg</option>
+                                <option value="71">More than 70.0 Kg</option>
+                            </select>
+
+                        </div>
+
+                        <div class="form-group">
+                            <div class="d-flex justify-content-between">
+                                <input type="number" class="form-control number_arrow_hide"  name="l" placeholder="Length(cm)">
+                                <input type="number" class="form-control number_arrow_hide mx-1"  name="w" placeholder="Width(cm)">
+                                <input type="number" class="form-control number_arrow_hide"  name="h" placeholder="Height(cm)">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+
+                            <input type="number" class="form-control" name="mobile"  placeholder="Mobile/Phone" required>
+
+                        </div>
+
+                        <div class="form-btn">
+                            <button type="submit" value="Submit" name="submit" class="default-btn-onee mr-4"
+                                    data-loading-text="Please wait...">Get Charges
+                            </button>
+                            <div class="col-lg-12 col-md-12  text-light" style="padding-top:10px;">
+                                <span style="font-size:smaller">*We do not share your details to any third party. Read our <a class="text-primary" href ="https://rapidexworldwide.com/privacy-policy.php" target="_blank">Privacy Policy</a></span>
+                            </div>
+                        </div>
+
+                    </form>
+
+                    <!--
+
+        <div class="form-group">
+
+           <input type="text" class="form-control" name="Name" id="Name" placeholder="From" required>
+
+        </div>
+
+        <div class="form-group">
+
+          <input type="text" class="form-control" name="Today" id="Today"  placeholder="To" required>
+
+        </div>
+
+        <div class="form-group">
+
+          <input type="text" class="form-control" name="Weight" id="Weight" placeholder="Weight" required>
+
+        </div>
+
+        <div class="form-group">
+
+          <input type="text" class="form-control" name="Mobile" id="Mobile"  placeholder="Mobile" required>
+
+        </div>
+
+        <div class="form-group">
+
+          <input type="text" class="form-control" name="Mobile" id="Mobile"  placeholder="Mobile" required>
+
+        </div>
+
+        <div class="form-group">
+
+         <input type="text" class="form-control" name="Pickup" id="Pickup"  placeholder="Pickup Location" required>
+
+        </div>
+
+        <div class="form-btn">
+
+          <button type="submit" value="Submit" name="submit" class="default-btn-onee mr-4" data-loading-text="Please wait...">Submit</button>
+
+        </div>
+
+      </form>-->
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-6">
+
+                <div class="testimonials-area">
+
+                    <div class="container">
+
+
+                        <div class="img-slider owl-carousel owl-theme" data-ride="carousel" id="myCarousel"
+                             data-interval="500">
+
+
+                            <div class="testimonials-card" data-interval="500">
+
+                                <div class="client-img"><img  data-original="<?=BASE_URL?>/assets/img/about/courier1.webp"
+                                                             alt="International Courier Services In Delhi"  >
+
+                                </div>
+
+                            </div>
+
+                            <div class="testimonials-card" data-interval="500">
+
+                                <div class="client-img"><img  data-original="<?=BASE_URL?>/assets/img/about/courier2.webp"
+                                                             alt="International Courier Services"  >
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="testimonials-card" data-interval="500">
+
+                                <div class="client-img"><img  data-original="<?=BASE_URL?>/assets/img/about/courier3.webp"
+                                                             alt="International Courier Service Provider In Delhi"  >
+
+                                </div>
+
+                            </div>
+
+                            <div class="testimonials-card" data-interval="500">
+
+                                <div class="client-img"><img  data-original="<?=BASE_URL?>/assets/img/about/courier4.webp"
+                                                             alt="International Courier Service Provider In Delhi" >
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<br><br>
+
+<!--<div class="partner-area pt-100 pb-70">
+
+<div class="container">
+
+<div class="section-title"> <span>Our</span>
+
+  <h2>Channel Partners</h2>
+
+</div>
+
+<div class="partner-slider owl-carousel owl-theme">
+
+  <div class="partner-slider-item client-list"> <a href="https://www.dhl.com/en.php" title="DHL International Courier Service in Delhi" rel="nofollow" target="_blank"> <img  data-original="<?=BASE_URL?>/assets/img/partner/partner1.png" alt="DHL International Courier Service in Delhi"> </a> </div>
+
+  <div class="partner-slider-item client-list"> <a href="https://www.aramex.com/us/en" title="Aramex Internatonal Courier Services Near Me" rel="nofollow" target="_blank"> <img  data-original="<?=BASE_URL?>/assets/img/partner/partner2.png" alt="Aramex Internatonal Courier Services Near Me"> </a> </div>
+
+  <div class="partner-slider-item client-list"> <a href="https://www.ups.com/in/en/Home.page" title="Ups International Courier Services Near Me" rel="nofollow" target="_blank"> <img  data-original="<?=BASE_URL?>/assets/img/partner/partner3.png" alt="Ups International Courier Services Near Me"> </a> </div>
+
+  <div class="partner-slider-item client-list"> <a href="https://www.dpd.co.uk/" title="DPD Internatonal Courier Services" rel="nofollow" target="_blank"> <img  data-original="<?=BASE_URL?>/assets/img/partner/partner4.png" alt="DPD Internatonal Courier Services"> </a> </div>
+
+  <div class="partner-slider-item client-list"> <a href="https://www.fedex.com/en-in/home.php" title="FedEx International Courier Services in Delhi" rel="nofollow" target="_blank"> <img  data-original="<?=BASE_URL?>/assets/img/partner/partner5.png" alt="FedEx International Courier Services in Delhi"> </a> </div>
+
+  <div class="partner-slider-item client-list"> <a href="https://www.tnt.com/express/en_in/site/home.php" rel="nofollow" target="_blank"> <img  data-original="<?=BASE_URL?>/assets/img/partner/partner6.png" alt="TNT"> </a> </div>
+
+  <div class="partner-slider-item client-list"> <a href="https://www.skynet.net/" title="Skynet International Courier Services in Delhi" rel="nofollow" target="_blank"> <img  data-original="<?=BASE_URL?>/assets/img/partner/partner7.png" alt="Skynet International Courier Services in Delhi"> </a> </div>
+
+  <div class="partner-slider-item client-list"> <a href="https://dpex.com/" title="DPEX International Courier Services in Delhi" rel="nofollow" target="_blank"> <img  data-original="<?=BASE_URL?>/assets/img/partner/partner8.png" alt="DPEX International Courier Services in Delhi"> </a> </div>
+
+  <div class="partner-slider-item client-list"> <a href="https://www.bluedart.com/" title="Bluedart Courier Services in Delhi" rel="nofollow" target="_blank"> <img  data-original="<?=BASE_URL?>/assets/img/partner/partner9.png" alt="Bluedart Courier Services in Delhi"> </a> </div>
+
+  <div class="partner-slider-item client-list"> <a href="https://www.citylinkexpress.com/" title="Citylinkexpress" rel="nofollow" target="_blank"> <img  data-original="<?=BASE_URL?>/assets/img/partner/partner10.png" alt="Citylinkexpress"> </a> </div>
+
+</div>
+
+</div>
+
+</div>
+
+-->
+
+<?php include("include/component/pickup_location.php") ?>
+
+
+<!--<section id="d-popup">-->
+
+<!--    <div class="diwali-popup" style="display:flex; align-items:center; justify-content:center;">-->
+
+
+<!--        <div class="diwali-img" style="display:flex; align-items:center; justify-content:center;">-->
+
+<!--            <img  data-original="<?=BASE_URL?>/assets/img/popup/diwali-popup.jpg" class="img-fluid">-->
+
+<!--            <div class="cross-b">-->
+
+<!--                <span>Skip <i class="bx bx-x"></i></span>-->
+
+<!--            </div>-->
+
+<!--        </div>-->
+
+<!--    </div>-->
+
+<!--</section>-->
+<div class="container-fluid p-0">
+
+    <div class="col-lg-12 mb-5 p-0">
+
+        <a onclick="myFunctions()" class="mans_key" id="myBtn2">Related Keywords</a>
+
+        <span id="dots2" style="display: inline;"></span><span id="more2" style="display: none;">
+            <p class="text-justify mans_relatext">
+ Courier Services,
+Courier Services near me,
+Parcel Services,
+Parcel Services near me,
+Shipping Services,
+Shipping Services near me,
+Courier Charges,
+Courier Charges near me,
+Parcel Charges,
+Parcel Charges near me,
+Shipping Charges,
+Shipping Charges near me,
+Shipping Agency,
+Shipping Agency near me,
+Shipping Agent,
+Shipping Agent near me,
+Courier Agency,
+Courier Agency near me,
+Parcel Agency,
+Parcel Agency near me,
+Courier Agent,
+Courier Agent near me,
+Parcel Agent,
+Parcel Agent near me,
+Courier Offices,
+Courier Offices near me,
+Parcel Offices,
+Parcel Offices near me,
+Shipping Offices,
+Shipping Offices near me,
+Courier Company,
+Courier Company near me,
+Shipping Company,
+Shipping Company near me,
+Air Cargo Company,
+Air Cargo Company near me,
+Air Courier Service ,
+Air Courier Service  near me,
+Parcel Delivery Service,
+Parcel Delivery Service near,
+Parcel Booking Service,
+Parcel Booking Service near me,
+Priority Courier Services,
+Priority Courier Services near me,
+Economy Courier Services,
+Economy Courier Services near me,
+Express Courier Services,
+Express Courier Services near me,
+Courier Delivery,
+Courier Delivery near me,
+Parcel Delivery,
+Parcel Delivery near me,
+Courier Delivery Company,
+Courier Delivery Company near me,
+Parcel Delivery Company,
+Parcel Delivery Company near me,
+Courier Delivery Office,
+Courier Delivery Office near me,
+Parcel Delivery Office,
+Parcel Delivery Office near me,
+International Courier,
+International Courier near me,
+International Parcel,
+International Parcel near me,
+International shipping,
+International shipping near me,
+International Courier Services,
+International Courier Services near me,
+International Parcel Services,
+International Parcel Services near me,
+International Shipping Services,
+International Shipping Services near me,
+International Courier Charges,
+International Courier Charges near me,
+International Parcel Charges,
+International Parcel Charges near me,
+International Shipping Charges,
+International Shipping Charges near me,
+International Shipping Agency,
+International Shipping Agency near me,
+International Shipping Agent,
+International Shipping Agent near me,
+International Courier Agency,
+International Courier Agency near me,
+International Parcel Agency,
+International Parcel Agency near me,
+International Courier Agent,
+International Courier Agent near me,
+International Parcel Agent,
+International Parcel Agent near me,
+International Courier Offices,
+International Courier Offices near me,
+International Parcel Offices,
+International Parcel Offices near me,
+International Shipping Offices,
+International Shipping Offices near me,
+International Courier Company,
+International Courier Company near me,
+International Shipping Company,
+International Shipping Company near me,
+International Air Cargo Company,
+International Air Cargo Company near me,
+International Air Courier Service ,
+International Air Courier Service  near me,
+International Parcel Delivery Service,
+International Parcel Delivery Service near,
+International Parcel Booking Service,
+International Parcel Booking Service near me,
+International Air Courier,
+International Air Courier near me,
+International Air Parcel,
+International Air Parcel near me,
+International Priority Services,
+International Priority Services near me,
+International Economy Services,
+International Economy Services near me,
+International Express Courier,
+International Express Courier near me,
+International Economy Courier,
+International Economy Courier near me,
+International Air Express,
+International Air Express near me,
+International Air Economy,
+International Air Economy near me,
+International Courier Delivery,
+International Courier Delivery near me,
+International Parcel Delivery,
+International Parcel Delivery near me,
+International Courier Delivery Company,
+International Courier Delivery Company near me,
+International Parcel Delivery Company,
+International Parcel Delivery Company near me,
+International Courier Delivery Office,
+International Courier Delivery Office near me,
+International Parcel Delivery Office,
+International Parcel Delivery Office near me,
+Cheapest Courier Service,
+Cheapest Courier Service near me,
+Best Courier Services,
+Best Courier Services near me,
+International Courier Service,
+International Courier Service near me,
+Cheapest Courier Company,
+Cheapest Courier Company near me,
+Delivery Services,
+Delivery Services near me,
+Delivery Company,
+Delivery Company near me,
+Package Delivery Agency,
+Package Delivery Agency near me,
+Export Servies,
+Export Servies near me,
+Export Agency,
+Export Agency near me,
+Express Document Services,
+Express Document Services near me,
+Medicine Delivery Services,
+Medicine Delivery Services near me,
+Food items Delivery Services,
+Food items Delivery Services near me,
+Excess Baggage Delivery,
+Excess Baggage Delivery near me,
+Household Delivery Services,
+Household Delivery Services near me,
+Cosmetic Delivery Services,
+Cosmetic Delivery Services near me,
+Cheapest International Courier,
+Best International Courier,
+Top International Courier,
+Top 10 International Courier,
+Fastest International Courier,
+Relaible International Courier,
+Cheap International Courier,
+Cheapest International Courier Service,
+Best International Courier Service,
+Top International Courier Service,
+Top 10 International Courier Service,
+Fastest International Courier Service,
+Relaible International Courier Service,
+Cheap International Courier Service,
+Cheapest International Courier Services,
+Best International Courier Services,
+Top International Courier Services,
+Top 10 International Courier Services,
+Fastest International Courier Services,
+Relaible International Courier Services,
+Cheap International Courier Services,
+Cheapest International Courier Charges,
+Best International Courier Charges,
+Top International Courier Charges,
+Top 10 International Courier Charges,
+Fastest International Courier Charges,
+Relaible International Courier Charges,
+Cheap International Courier Charges,
+International Courier Rates,
+Cheapest International Courier Rates,
+Best International Courier Rates,
+Top International Courier Rates,
+Top 10 International Courier Rates,
+Fastest International Courier Rates,
+Relaible International Courier Rates,
+Cheap International Courier Rates,
+International Courier Price,
+Cheapest International Courier Price,
+Best International Courier Price,
+Top International Courier Price,
+Top 10 International Courier Price,
+Fastest International Courier Price,
+Relaible International Courier Price,
+Cheap International Courier Price,
+International Courier Cost,
+Cheapest International Courier Cost,
+Best International Courier Cost,
+Top International Courier Cost,
+Top 10 International Courier Cost,
+Fastest International Courier Cost,
+Relaible International Courier Cost,
+Cheap International Courier Cost,
+International Courier Tariff,
+Cheapest International Courier Tariff,
+Best International Courier Tariff,
+Top International Courier Tariff,
+Top 10 International Courier Tariff,
+Fastest International Courier Tariff,
+Relaible International Courier Tariff,
+Cheap International Courier Tariff,
+Cheapest International Courier Company,
+Best International Courier Company,
+Top International Courier Company,
+Top 10 International Courier Company,
+Fastest International Courier Company,
+Relaible International Courier Company,
+Cheap International Courier Company,
+Cheapest International Shipping Company,
+Best International Shipping Company,
+Top International Shipping Company,
+Top 10 International Shipping Company,
+Fastest International Shipping Company,
+Relaible International Shipping Company,
+Cheap International Shipping Company,
+Cheapest International Parcel Charges,
+Best International Parcel Charges,
+Top International Parcel Charges,
+Top 10 International Parcel Charges,
+Fastest International Parcel Charges,
+Relaible International Parcel Charges,
+Cheap International Parcel Charges,
+International Parcel Rates,
+Cheapest International Parcel Rates,
+Best International Parcel Rates,
+Top International Parcel Rates,
+Top 10 International Parcel Rates,
+Fastest International Parcel Rates,
+Relaible International Parcel Rates,
+Cheap International Parcel Rates,
+International Parcel Price,
+Cheapest International Parcel Price,
+Best International Parcel Price,
+Top International Parcel Price,
+Top 10 International Parcel Price,
+Fastest International Parcel Price,
+Relaible International Parcel Price,
+Cheap International Parcel Price,
+International Parcel Cost,
+Cheapest International Parcel Cost,
+Best International Parcel Cost,
+Top International Parcel Cost,
+Top 10 International Parcel Cost,
+Fastest International Parcel Cost,
+Relaible International Parcel Cost,
+Cheap International Parcel Cost,
+International Parcel Tariff,
+Cheapest International Parcel Tariff,
+Best International Parcel Tariff,
+Top International Parcel Tariff,
+Top 10 International Parcel Tariff,
+Fastest International Parcel Tariff,
+Relaible International Parcel Tariff,
+Cheap International Parcel Tariff,
+Cheapest International Shipping Charges,
+Best International Shipping Charges,
+Top International Shipping Charges,
+Top 10 International Shipping Charges,
+Fastest International Shipping Charges,
+Relaible International Shipping Charges,
+Cheap International Shipping Charges,
+International Shipping Rates,
+Cheapest International Shipping Rates,
+Best International Shipping Rates,
+Top International Shipping Rates,
+Top 10 International Shipping Rates,
+Fastest International Shipping Rates,
+Relaible International Shipping Rates,
+Cheap International Shipping Rates,
+International Shipping Price,
+Cheapest International Shipping Price,
+Best International Shipping Price,
+Top International Shipping Price,
+Top 10 International Shipping Price,
+Fastest International Shipping Price,
+Relaible International Shipping Price,
+Cheap International Shipping Price,
+International Shipping Cost,
+Cheapest International Shipping Cost,
+Best International Shipping Cost,
+Top International Shipping Cost,
+Top 10 International Shipping Cost,
+Fastest International Shipping Cost,
+Relaible International Shipping Cost,
+Cheap International Shipping Cost,
+International Shipping Tariff,
+Cheapest International Shipping Tariff,
+Best International Shipping Tariff,
+Top International Shipping Tariff,
+Top 10 International Shipping Tariff,
+Fastest International Shipping Tariff,
+Relaible International Shipping Tariff,
+Cheap International Shipping Tariff,
+International Air Parcel Price,
+International Air Parcel Charges,
+International Air Parcel Tariff,
+International Air Parcel Rates,
+International Air Parcel Cost,
+International Air Courier Price,
+International Air Courier Charges,
+International Air Courier Tariff,
+International Air Courier Rates,
+International Air Parcel Service,
+International Air Parcel Services,
+International Courier Service Price,
+International Courier Service Charges,
+International Courier Service Tariff,
+International Courier Service Rates,
+International Courier Service Cost,
+International Courier Services Price,
+International Courier Services Charges,
+International Courier Services Tariff,
+International Courier Services Rates,
+International Courier Services Cost,
+International Parcel Service,
+International Parcel Service Tariff,
+International Parcel Service Rates,
+International Parcel Service Cost,
+International Parcel Services Price,
+International Parcel Services Charges,
+International Parcel Services Tariff,
+International Parcel Services Rates,
+International Parcel Services Cost,
+International Courier Service Provider,
+International Courier Services Provider,
+International Courier And Cargo Service,
+International Courier And Cargo Services,
+International Express,
+International Economy,
+International Priority,
+International Economy Express,
+International Priority Express,
+International Express Service,
+International Priority Service,
+International Economy Service,
+International Air Express Service,
+International Air Economy Service,
+International Priority Courier,
+International Speed Post,
+Cheapest International Shipping,
+Cheapest International Parcel,
+Cheapest International Parcel Service,
+Cheapest International Parcel Services,
+Best International Parcel,
+Best International Parcel Service,
+Best International Parcel Services,
+Top International Parcel,
+Top International Parcel Service,
+Top International Parcel Services,
+Top 10 International Parcel,
+Top 10 International Parcel Service,
+Top 10 International Parcel Services,
+Fastest International Parcel,
+Fastest International Parcel Service,
+Relaible International Parcel Service,
+Cheap International Parcel Service,
+Fastest International Parcel Services,
+Relaible International Parcel Services,
+Cheap International Parcel Services,
+International Shipping Service,
+International Courier Provider,
+International Air Courier Services,
+International Air Cargo Services ,
+International Cargo,
+International Cargo Service,
+International Cargo Services,
+Express Courier Service For International,
+Best Courier Service For International,
+Top 10 Courier Service For International,
+Top Courier Service For International,
+Cheapest Courier Service For International,
+Fastest Delivery Service For International,
+Relaible Courier Service For International,
+Cheap Courier Service For International,
+
+
+
+        </p></span>
+
+    </div>
+</div>
+
+<script>
+    let url = document.URL;
+    if(url==="https://rapidexworldwide.com/#" || url==="https://rapidexworldwide.com/#!" || window.location.hash){
+        window.location.href  = "https://rapidexworldwide.com/";
+    }
+</script>
+
+<!--start footer.php -->
+<?php include("include/footer.php") ?>

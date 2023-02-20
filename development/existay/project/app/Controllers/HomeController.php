@@ -15,6 +15,7 @@ class HomeController extends BaseController
         $state = new StateModel();
         $state = $state->orderBy("state", "asc")->findAll();
 
+        $db = db_connect()
         $testimonial = new TestimonialModel();
         $testimonial = $testimonial->orderBy('id','desc')->findAll();
 
